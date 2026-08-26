@@ -1,85 +1,127 @@
 # Release Notes
 
-## Public baseline — August 2026
+## August 2026 Curated Public Framework Release
 
-This is the first deliberately curated public repository baseline for the Productive Value–Productive Power (PV-PP) framework following the August 2026 integration-completion audit and reconciliation work.
+This release establishes a cleaned public repository for the Productive Value–Productive Power (PV-PP) framework.
 
-The release is intended to provide a coherent public reference point for the framework without publishing the entire private research archive.
+The release was assembled from a substantially larger working research tree.
 
-## What this baseline represents
+Material was reviewed for authority, supersession, duplication, publication status, and relevance to the public framework.
 
-The August 2026 baseline incorporates major framework-integration and authority-control work, including:
+The objective was not to mirror the internal project directory.
 
-- normalization of the current persistent-state and perceived-state architecture;
-- reconciliation of PV, PP, SPV, viability, memory, retrieval, expectation, and execution terminology;
-- normalization of the canonical Layer 2 operator sequence;
-- clarification of operator ownership and no-downstream-repair rules;
-- clarification that Σ selects and ε realizes;
-- reconciliation of typed relational memory and cooperation-propensity placement;
-- runtime predicate authority reconciliation;
-- Layer 4A specification review;
-- historical and legacy authority cleanup;
-- compendium authority and rebuild-control work;
-- adoption of a minimal resource-bounded-attention principle without creating a new operator;
-- creation of a current compact architecture skeleton.
+The objective was to expose a coherent public framework while preserving clear ownership, authority, and status boundaries.
 
-## Current canonical Layer 2 sequence
+## Included Framework Areas
 
-`PPP → Φ → H → G → ℛ → Graph Layer / seed substrate → Π → Π completeness validation → Constraints → Domain Framing → Adequacy → Σ → ε`
+### 10 Core Framework
 
-## Deliberately deferred work
+19 active public framework documents.
 
-This release does **not** imply that every research branch is complete.
+This category contains the principal Layer 1 and Layer 2 framework architecture together with selected supporting specifications.
 
-The following areas are intentionally deferred:
+### 15 Operators
 
-- expanded-state and multi-agent compatibility regression for final Layer 4A promotion;
-- selected proof-program reconciliation and archive cleanup;
-- benchmark-status normalization and additional simulations;
-- broader proof work;
-- white-paper implementation-method normalization;
-- publication-currency review and selected manuscript refreshes.
+14 active public documents.
 
-These are deferred workstreams, not unresolved contradictions in the current public baseline.
+This category contains current operator-owner specifications together with selected operator-supporting specifications.
 
-## Public-scope policy
+### 20 Stack and Layer Governance
 
-This repository is intentionally narrower than the full private project corpus.
+9 public documents.
 
-The first public release is expected to include selected material from:
+This category contains governance, ownership, stack, guide, invariant, diagram, and layer/interface material used to interpret the framework and its authority structure.
 
-- Core Framework
-- Operators
-- Stack and Layer Governance
-- Applications and Extensions
-- Runtime and Execution Formalization
-- Testing and Validation
-- Proof and Reduction Program
-- Benchmarks and Simulations
-- Framework Documentation
+### 30 Applications and Extensions
 
-The following categories are generally excluded from the initial public release unless specifically selected later:
+5 deliberately selected Layer 3 and Layer 4 documents.
 
-- exploratory research not yet promoted;
-- unpublished or journal-submission research papers;
-- private/internal notes;
-- legacy holding material;
-- obsolete or superseded drafts that would confuse current authority.
+Provisional-canonical and exploratory status remains explicit where applicable.
 
-## Release philosophy
+Inclusion in this release does not independently promote such material to canonical authority.
 
-The public GitHub repository is a **curated release surface**, not the private working master.
+### 40 Runtime and Execution Formalization
 
-Future public releases should be made deliberately from the current project corpus after checking:
+4 public runtime-boundary documents.
 
-1. authority status;
-2. public/private suitability;
-3. document currency;
-4. internal-use-only markings;
-5. whether older material could mislead a reader about the current framework.
+The public set is deliberately limited to architecture needed to understand the transition from framework governance toward bounded runtime action admission.
 
-## Version naming
+Internal prototypes, implementation code, validation materials, clinical demonstrations, replay material, and internal-use-only sidecar artifacts are excluded.
 
-A formal public framework version number may be attached to this baseline once the repository contents are frozen for release.
+### 50 Scalar Reduction Proof Program
 
-Until that point, this file identifies the release by date and audit state rather than asserting a final semantic-version number.
+The Scalar Reduction Proof Program is maintained as a separate public project.
+
+Its proof files are not duplicated in this repository.
+
+Category 50 contains a README linking to the separately maintained authoritative proof repository and project site.
+
+### 60 Benchmarks and Simulations
+
+The working benchmark and simulation laboratory is not published wholesale.
+
+Category 60 instead indexes three benchmark projects that have been deliberately promoted to standalone public repositories:
+
+- PV-PP Agent Decision Layer Demo
+- Grenade Self-Sacrifice Benchmark
+- AI Gridworld Safe Benchmark
+
+The dedicated benchmark repositories remain authoritative for their respective materials.
+
+## Deliberately Excluded
+
+This release does not publish:
+
+- archives and superseded revisions;
+- duplicate compendium copies where current owner files are available;
+- review-for-future-integration material;
+- internal-use-only runtime and sidecar implementation artifacts;
+- code, prototype, and validation work from the internal runtime laboratory;
+- the broader developmental benchmark and simulation tree;
+- Category 70 exploratory and future-promotion research;
+- unpublished or submitted Category 80 research papers;
+- books and larger manuscript projects;
+- intellectual-property working material;
+- custom GPT material;
+- forum and Substack working directories;
+- marketing material;
+- project-management infrastructure;
+- daily work folders; or
+- other private or developmental research workstreams.
+
+These exclusions are deliberate and should not be interpreted as an inventory of the full PV-PP research program.
+
+## Authority-Hygiene Corrections During Release Assembly
+
+The public set incorporates targeted authority and documentation-hygiene corrections made during release assembly.
+
+These included:
+
+- removal or withholding of duplicate and superseded ownership surfaces;
+- correction of stale document-version metadata;
+- reconciliation of current operator-owner version references;
+- reconciliation of the structured perceived decision-state interface;
+- correction of stale operator-stack summaries;
+- preservation of explicit provisional-canonical and exploratory boundaries;
+- separation of public architecture from implementation-internal runtime material; and
+- replacement of duplicated specialized-project content with references to dedicated authoritative repositories.
+
+These corrections were deliberately narrow.
+
+The public-release process was not used as an excuse to redesign the framework.
+
+## Specialized Public Projects
+
+Major specialized workstreams may maintain their own public repositories.
+
+The main PV-PP framework repository acts as the top-level public framework and research-program map rather than duplicating those repositories.
+
+This approach preserves a single authoritative public source for each specialized project and reduces the risk of version divergence.
+
+## Release Principle
+
+**Public does not mean canonical.**
+
+Document status, ownership, and declared authority remain controlling.
+
+See `AUTHORITY_AND_STATUS.md` for the repository authority rules.
