@@ -6,6 +6,14 @@ The PV-PP framework models decision and action in terms of productive value, pro
 
 This repository is intentionally curated. It contains the current public framework architecture and selected supporting material. Developmental, private, superseded, implementation-internal, and unpublished research materials remain outside this repository.
 
+## Start Here
+
+For a plain-language introduction to the framework, begin with the [PV-PP framework overview](https://amundsenlance.github.io/pvpp-framework/).
+
+For a systematic path through the formal architecture, use the [PV-PP Framework Reader Guide v0.4](20%20Stack%20and%20Layer%20Governance/PV-PP_Framework_Reader_Guide_v0.4_Merged.docx). It provides the recommended reading order and explains the relationship among the core layers, operators, governance material, and supporting extensions.
+
+Before treating any document as controlling architecture, read [AUTHORITY_AND_STATUS.md](AUTHORITY_AND_STATUS.md). Public availability does not by itself establish canonical authority.
+
 ## Repository Structure
 
 ### 10 Core Framework
@@ -18,7 +26,7 @@ Current public operator-owner specifications and selected operator-supporting sp
 
 ### 20 Stack and Layer Governance
 
-Governance, ownership, stack maps, reader guidance, invariants, diagrams, and layer/interface documentation used to interpret the framework correctly.
+Governance, ownership, stack maps, reader guidance, invariants, diagrams, layer/interface documentation, and the public typed-relational-memory governance anchor used to interpret the framework correctly.
 
 ### 30 Applications and Extensions
 
