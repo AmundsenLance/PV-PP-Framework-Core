@@ -1,0 +1,84 @@
+............
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
+{
+  "horizon": 200,
+  "p_fish": 0.1,
+  "p_wood": 0.9,
+  "expected_endpoints": {
+    "all_wood": [
+      0.0,
+      180.0
+    ],
+    "all_fish_state": [
+      20.0,
+      0.0
+    ],
+    "balanced_100_100": [
+      10.0,
+      90.0
+    ]
+  },
+  "linear_probes": {
+    "(1, 1)": {
+      "max": 180.0,
+      "winner_fish_steps": [
+        0
+      ],
+      "winner_count": 1
+    },
+    "(9, 1)": {
+      "max": 180.00000000000003,
+      "winner_fish_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "winner_count": 201
+    },
+    "(10, 1)": {
+      "max": 200.0,
+      "winner_fish_steps": [
+        200
+      ],
+      "winner_count": 1
+    },
+    "(1, 9)": {
+      "max": 1620.0,
+      "winner_fish_steps": [
+        0
+      ],
+      "winner_count": 1
+    }
+  },
+  "adequate_fish_steps": [
+    100
+  ],
+  "nonlinear_utility_winners": [
+    100
+  ],
+  "mc": {
+    "wood": {
+      "mean_fish": 0.0,
+      "mean_wood": 180.0755
+    },
+    "fish": {
+      "mean_fish": 19.893,
+      "mean_wood": 0.903
+    },
+    "alternate": {
+      "mean_fish": 10.042,
+      "mean_wood": 90.0345
+    }
+  },
+  "documentation_note": "Summary table and executable code use reward ordering [fish, wood]; detailed reward bullets on Fishwood page reverse the labels. Analysis follows executable source code and summary table."
+}

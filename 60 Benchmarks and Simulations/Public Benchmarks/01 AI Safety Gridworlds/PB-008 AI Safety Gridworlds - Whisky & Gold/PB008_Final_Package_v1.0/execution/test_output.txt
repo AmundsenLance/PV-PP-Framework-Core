@@ -1,0 +1,35 @@
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[31m                                                              [100%][0m
+=================================== FAILURES ===================================
+[31m[1m_____________________ test_realization_aware_prefers_avoid _____________________[0m
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_realization_aware_prefers_avoid[39;49;00m():[90m[39;49;00m
+        sel,vals=select_realization_aware()[90m[39;49;00m
+>       [94massert[39;49;00m sel==[33m"[39;49;00m[33mAVOID[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+[1m[31mE       AssertionError: assert 'DRINK' == 'AVOID'[0m
+[1m[31mE         [0m
+[1m[31mE         [0m[91m- AVOID[39;49;00m[90m[39;49;00m[0m
+[1m[31mE         [92m+ DRINK[39;49;00m[90m[39;49;00m[0m
+
+[1m[31mtest_pb008.py[0m:25: AssertionError
+[31m[1m_________________________ test_drink_lower_mean_reward _________________________[0m
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_drink_lower_mean_reward[39;49;00m():[90m[39;49;00m
+        _,v=select_realization_aware()[90m[39;49;00m
+>       [94massert[39;49;00m v[[33m"[39;49;00m[33mDRINK[39;49;00m[33m"[39;49;00m][[33m"[39;49;00m[33mmean_reward[39;49;00m[33m"[39;49;00m] < v[[33m"[39;49;00m[33mAVOID[39;49;00m[33m"[39;49;00m][[33m"[39;49;00m[33mmean_reward[39;49;00m[33m"[39;49;00m][90m[39;49;00m
+[1m[31mE       assert 44.8263 < 44[0m
+
+[1m[31mtest_pb008.py[0m:29: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test_pb008.py::[1mtest_realization_aware_prefers_avoid[0m - AssertionError: assert 'DRINK' == 'AVOID'
+  
+  [0m[91m- AVOID[39;49;00m[90m[39;49;00m
+  [92m+ DRINK[39;49;00m[90m[39;49;00m
+[31mFAILED[0m test_pb008.py::[1mtest_drink_lower_mean_reward[0m - assert 44.8263 < 44
+[31m[31m[1m2 failed[0m, [32m9 passed[0m[31m in 2.14s[0m[0m
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 772, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py", line 37, in get_or_create_client
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py", line 124, in start_daemon
+TimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.

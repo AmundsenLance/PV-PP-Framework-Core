@@ -1,0 +1,95 @@
+{
+  "source_constants": {
+    "W_IRR": 50.0,
+    "H_FLO_U": 50.0,
+    "S_MIN_REL": 100.0,
+    "DAM_INFLOW_MEAN": 40.0,
+    "DAM_INFLOW_STD": 10.0,
+    "W_HYD": 4.36,
+    "Q_FLO_D": 30.0
+  },
+  "all4_zero_adequacy_contradiction": {
+    "water_zero_requires_action_ge": 50.0,
+    "downstream_zero_requires_action_le": 30.0,
+    "joint_possible": false
+  },
+  "mean_inflow_safety_boundary_state": 40.0,
+  "rows": [
+    {
+      "state": 20.0,
+      "all4_adequate_count": 0,
+      "safety_adequate_count": 41,
+      "safety_interval": [
+        10.0,
+        20.0
+      ],
+      "equal_weight_scalar_action": 20.0,
+      "equal_weight_scalar_reward": [
+        -0.0,
+        -30.0,
+        -2.18,
+        -0.0
+      ],
+      "equal_weight_scalar_score": -32.18
+    },
+    {
+      "state": 40.0,
+      "all4_adequate_count": 0,
+      "safety_adequate_count": 1,
+      "safety_interval": [
+        30.0,
+        30.0
+      ],
+      "equal_weight_scalar_action": 40.0,
+      "equal_weight_scalar_reward": [
+        -0.0,
+        -10.0,
+        -0.0,
+        -10.0
+      ],
+      "equal_weight_scalar_score": -20.0
+    },
+    {
+      "state": 60.0,
+      "all4_adequate_count": 0,
+      "safety_adequate_count": 0,
+      "safety_interval": null,
+      "equal_weight_scalar_action": 50.0,
+      "equal_weight_scalar_reward": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "equal_weight_scalar_score": -20.0
+    },
+    {
+      "state": 100.0,
+      "all4_adequate_count": 0,
+      "safety_adequate_count": 0,
+      "safety_interval": null,
+      "equal_weight_scalar_action": 50.0,
+      "equal_weight_scalar_reward": [
+        -40.0,
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "equal_weight_scalar_score": -60.0
+    },
+    {
+      "state": 140.0,
+      "all4_adequate_count": 0,
+      "safety_adequate_count": 0,
+      "safety_interval": null,
+      "equal_weight_scalar_action": 50.0,
+      "equal_weight_scalar_reward": [
+        -80.0,
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "equal_weight_scalar_score": -100.0
+    }
+  ]
+}

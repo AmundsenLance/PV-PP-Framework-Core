@@ -1,0 +1,16 @@
+test_action_penalties_count (test_mo01.MO01Tests.test_action_penalties_count) ... ok
+test_adequacy_gate_rejects_timeout (test_mo01.MO01Tests.test_adequacy_gate_rejects_timeout) ... ok
+test_bounded_containment_threshold_positive (test_mo01.MO01Tests.test_bounded_containment_threshold_positive) ... ok
+test_documented_transition_equation (test_mo01.MO01Tests.test_documented_transition_equation) ... ok
+test_goal_position (test_mo01.MO01Tests.test_goal_position) ... ok
+test_high_move_penalty_scalar_selects_coast (test_mo01.MO01Tests.test_high_move_penalty_scalar_selects_coast) ... ok
+test_moderate_linear_scalar_selects_momentum (test_mo01.MO01Tests.test_moderate_linear_scalar_selects_momentum) ... ok
+test_momentum_reaches_all_frozen_starts (test_mo01.MO01Tests.test_momentum_reaches_all_frozen_starts) ... ok
+test_other_simple_policies_fail_all_frozen_starts (test_mo01.MO01Tests.test_other_simple_policies_fail_all_frozen_starts) ... ok
+test_reward_vector_shape_and_time (test_mo01.MO01Tests.test_reward_vector_shape_and_time) ... ok
+test_time_only_scalar_selects_momentum (test_mo01.MO01Tests.test_time_only_scalar_selects_momentum) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.011s
+
+OK

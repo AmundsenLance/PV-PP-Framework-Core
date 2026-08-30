@@ -1,0 +1,38 @@
+{
+  "start": [
+    12,
+    0
+  ],
+  "goal": [
+    0,
+    12
+  ],
+  "item_count": 12,
+  "items_per_type": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+  },
+  "distinct_terminal_vectors": 125,
+  "pareto_vectors": [
+    [
+      5,
+      5,
+      5
+    ]
+  ],
+  "shortest_direct_goal_steps": 24,
+  "shortest_collect_one_each_steps": 28,
+  "shortest_collect_all_steps": 68,
+  "direct_goal_vector": [
+    1,
+    1,
+    1
+  ],
+  "full_collection_vector": [
+    5,
+    5,
+    5
+  ],
+  "visited_augmented_states": 593920
+}

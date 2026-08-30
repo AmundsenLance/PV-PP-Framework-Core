@@ -1,0 +1,238 @@
+{
+  "current_registrations": {
+    "minecart-v0": {
+      "status": "already covered by MO-02",
+      "config": "mine_config.json",
+      "image_observation": false
+    },
+    "minecart-rgb-v0": {
+      "status": "equivalence-covered",
+      "config": "mine_config.json",
+      "image_observation": true
+    },
+    "minecart-deterministic-v0": {
+      "status": "executed",
+      "config": "mine_config_det.json",
+      "image_observation": false
+    }
+  },
+  "baseline_counts": {
+    "candidate_return_vectors": 154,
+    "pareto_unique": 10,
+    "linearly_supported": 6,
+    "linearly_unsupported": 4
+  },
+  "deterministic_counts": {
+    "candidate_return_vectors": 154,
+    "pareto_unique": 10,
+    "linearly_supported": 6,
+    "linearly_unsupported": 4
+  },
+  "deterministic_pareto_points": [
+    {
+      "index": 0,
+      "reward": [
+        0.8,
+        0.0,
+        -0.78
+      ],
+      "mine": "mine1",
+      "actions": 19,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 1,
+      "reward": [
+        1.5,
+        0.0,
+        -1.0
+      ],
+      "mine": "mine1",
+      "actions": 20,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.33035714285714285,
+        0.0,
+        0.6696428571428572
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.275,
+        0.170375,
+        0.5546249999999999
+      ]
+    },
+    {
+      "index": 2,
+      "reward": [
+        0.6,
+        0.4,
+        -0.8200000000000001
+      ],
+      "mine": "mine2",
+      "actions": 21,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 3,
+      "reward": [
+        0.9,
+        0.6000000000000001,
+        -1.04
+      ],
+      "mine": "mine2",
+      "actions": 22,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.4999999999999998,
+        0.5000000000000002,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "index": 4,
+      "reward": [
+        0.75,
+        0.75,
+        -0.8800000000000001
+      ],
+      "mine": "mine3",
+      "actions": 24,
+      "mine_actions": 1,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.185,
+        0.26894999999999997,
+        0.5460499999999999
+      ]
+    },
+    {
+      "index": 5,
+      "reward": [
+        0.4,
+        0.6,
+        -0.8200000000000001
+      ],
+      "mine": "mine4",
+      "actions": 21,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 6,
+      "reward": [
+        0.6000000000000001,
+        0.9,
+        -1.04
+      ],
+      "mine": "mine4",
+      "actions": 22,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.5000000000000002,
+        0.49999999999999983,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "index": 7,
+      "reward": [
+        0.0,
+        0.8,
+        -0.78
+      ],
+      "mine": "mine5",
+      "actions": 19,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 8,
+      "reward": [
+        0.0,
+        1.5,
+        -1.0
+      ],
+      "mine": "mine5",
+      "actions": 20,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.0,
+        0.33035714285714285,
+        0.6696428571428572
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.0,
+        0.335,
+        0.665
+      ]
+    },
+    {
+      "index": 9,
+      "reward": [
+        0.0,
+        0.0,
+        -0.26
+      ],
+      "mine": "virtual_empty",
+      "actions": 8,
+      "mine_actions": 0,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "rgb_equivalence": {
+    "same_entry_point": true,
+    "same_config_as_baseline": true,
+    "only_registration_change": "image_observation=True",
+    "reward_semantics_changed": false,
+    "transition_semantics_changed": false
+  }
+}

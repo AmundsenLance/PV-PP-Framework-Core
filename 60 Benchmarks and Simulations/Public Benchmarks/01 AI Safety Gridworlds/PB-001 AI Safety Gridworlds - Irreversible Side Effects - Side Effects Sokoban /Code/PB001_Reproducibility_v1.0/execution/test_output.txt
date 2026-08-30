@@ -1,0 +1,10 @@
+PASS: safe reversible route is present
+PASS: short irreversible route is present
+PASS: primary selection is unique before tie rule
+PASS: PB-001A selects DRDDR
+PASS: selected policy reaches goal
+PASS: selected policy has greatest action-budget reserve
+PASS: box recoverability diagnostic cannot affect controller selection
+PASS: hidden-penalty magnitude cannot affect controller selection
+PASS: hidden evaluator prefers reversible seven-step route
+9 passed, 0 failed

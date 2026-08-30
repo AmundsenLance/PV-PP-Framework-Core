@@ -1,0 +1,988 @@
+{
+  "starts": [
+    -0.6,
+    -0.55,
+    -0.5,
+    -0.45,
+    -0.4
+  ],
+  "variants": {
+    "mo-mountaincar-3d-v0": {
+      "fields": [
+        "time",
+        "move",
+        "speed"
+      ],
+      "equal_weight_winners": {
+        "-0.6": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            -113.0,
+            48.33825541379879
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            -115.0,
+            45.769050315667165
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.5,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 3.926330291801833,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            3.926330291801833
+          ],
+          "final_position": -0.5215925933932505,
+          "final_velocity": 0.002043422643203296
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.45,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.19251203914642,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            12.19251203914642
+          ],
+          "final_position": -0.5208385447551629,
+          "final_velocity": 0.006366719343921797
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.4,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 20.29595441411426,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            20.29595441411426
+          ],
+          "final_position": -0.5309192625540776,
+          "final_velocity": 0.010596214705236482
+        }
+      },
+      "equal_weight_adequate_winners": {
+        "-0.6": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            -113.0,
+            48.33825541379879
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            -115.0,
+            45.769050315667165
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.5,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "move_actions": 124,
+          "speed_sum": 42.740645313158616,
+          "return_vector": [
+            -123.0,
+            -124.0,
+            42.740645313158616
+          ],
+          "final_position": 0.5349499825655736,
+          "final_velocity": 0.04819097792866507
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.45,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "move_actions": 121,
+          "speed_sum": 37.18780716612349,
+          "return_vector": [
+            -120.0,
+            -121.0,
+            37.18780716612349
+          ],
+          "final_position": 0.5200316368155655,
+          "final_velocity": 0.04037723773190128
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.4,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "move_actions": 122,
+          "speed_sum": 32.32521856694489,
+          "return_vector": [
+            -121.0,
+            -122.0,
+            32.32521856694489
+          ],
+          "final_position": 0.5065959513627183,
+          "final_velocity": 0.03262404769776248
+        }
+      },
+      "momentum": {
+        "-0.6": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            -113.0,
+            48.33825541379879
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            -115.0,
+            45.769050315667165
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.5,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "move_actions": 124,
+          "speed_sum": 42.740645313158616,
+          "return_vector": [
+            -123.0,
+            -124.0,
+            42.740645313158616
+          ],
+          "final_position": 0.5349499825655736,
+          "final_velocity": 0.04819097792866507
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.45,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "move_actions": 121,
+          "speed_sum": 37.18780716612349,
+          "return_vector": [
+            -120.0,
+            -121.0,
+            37.18780716612349
+          ],
+          "final_position": 0.5200316368155655,
+          "final_velocity": 0.04037723773190128
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.4,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "move_actions": 122,
+          "speed_sum": 32.32521856694489,
+          "return_vector": [
+            -121.0,
+            -122.0,
+            32.32521856694489
+          ],
+          "final_position": 0.5065959513627183,
+          "final_velocity": 0.03262404769776248
+        }
+      },
+      "coast": {
+        "-0.6": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.6,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.65184005594994,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            12.65184005594994
+          ],
+          "final_position": -0.526149497985143,
+          "final_velocity": -0.006607887911323845
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.55,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 4.392076974099426,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            4.392076974099426
+          ],
+          "final_position": -0.5258071166046654,
+          "final_velocity": -0.0022860949466379436
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.5,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 3.926330291801833,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            3.926330291801833
+          ],
+          "final_position": -0.5215925933932505,
+          "final_velocity": 0.002043422643203296
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.45,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.19251203914642,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            12.19251203914642
+          ],
+          "final_position": -0.5208385447551629,
+          "final_velocity": 0.006366719343921797
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-3d-v0",
+          "start": -0.4,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 20.29595441411426,
+          "return_vector": [
+            -200.0,
+            -0.0,
+            20.29595441411426
+          ],
+          "final_position": -0.5309192625540776,
+          "final_velocity": 0.010596214705236482
+        }
+      }
+    },
+    "mo-mountaincar-timemove-v0": {
+      "fields": [
+        "time",
+        "move"
+      ],
+      "equal_weight_winners": {
+        "-0.6": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.6,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.65184005594994,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.526149497985143,
+          "final_velocity": -0.006607887911323845
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.55,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 4.392076974099426,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5258071166046654,
+          "final_velocity": -0.0022860949466379436
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.5,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 3.926330291801833,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5215925933932505,
+          "final_velocity": 0.002043422643203296
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.45,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.19251203914642,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5208385447551629,
+          "final_velocity": 0.006366719343921797
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.4,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 20.29595441411426,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5309192625540776,
+          "final_velocity": 0.010596214705236482
+        }
+      },
+      "equal_weight_adequate_winners": {
+        "-0.6": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            -113.0
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            -115.0
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.5,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "move_actions": 124,
+          "speed_sum": 42.740645313158616,
+          "return_vector": [
+            -123.0,
+            -124.0
+          ],
+          "final_position": 0.5349499825655736,
+          "final_velocity": 0.04819097792866507
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.45,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "move_actions": 121,
+          "speed_sum": 37.18780716612349,
+          "return_vector": [
+            -120.0,
+            -121.0
+          ],
+          "final_position": 0.5200316368155655,
+          "final_velocity": 0.04037723773190128
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.4,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "move_actions": 122,
+          "speed_sum": 32.32521856694489,
+          "return_vector": [
+            -121.0,
+            -122.0
+          ],
+          "final_position": 0.5065959513627183,
+          "final_velocity": 0.03262404769776248
+        }
+      },
+      "momentum": {
+        "-0.6": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            -113.0
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            -115.0
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.5,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "move_actions": 124,
+          "speed_sum": 42.740645313158616,
+          "return_vector": [
+            -123.0,
+            -124.0
+          ],
+          "final_position": 0.5349499825655736,
+          "final_velocity": 0.04819097792866507
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.45,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "move_actions": 121,
+          "speed_sum": 37.18780716612349,
+          "return_vector": [
+            -120.0,
+            -121.0
+          ],
+          "final_position": 0.5200316368155655,
+          "final_velocity": 0.04037723773190128
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.4,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "move_actions": 122,
+          "speed_sum": 32.32521856694489,
+          "return_vector": [
+            -121.0,
+            -122.0
+          ],
+          "final_position": 0.5065959513627183,
+          "final_velocity": 0.03262404769776248
+        }
+      },
+      "coast": {
+        "-0.6": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.6,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.65184005594994,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.526149497985143,
+          "final_velocity": -0.006607887911323845
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.55,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 4.392076974099426,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5258071166046654,
+          "final_velocity": -0.0022860949466379436
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.5,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 3.926330291801833,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5215925933932505,
+          "final_velocity": 0.002043422643203296
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.45,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.19251203914642,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5208385447551629,
+          "final_velocity": 0.006366719343921797
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timemove-v0",
+          "start": -0.4,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 20.29595441411426,
+          "return_vector": [
+            -200.0,
+            -0.0
+          ],
+          "final_position": -0.5309192625540776,
+          "final_velocity": 0.010596214705236482
+        }
+      }
+    },
+    "mo-mountaincar-timespeed-v0": {
+      "fields": [
+        "time",
+        "speed"
+      ],
+      "equal_weight_winners": {
+        "-0.6": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            48.33825541379879
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            45.769050315667165
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.5,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "move_actions": 124,
+          "speed_sum": 42.740645313158616,
+          "return_vector": [
+            -123.0,
+            42.740645313158616
+          ],
+          "final_position": 0.5349499825655736,
+          "final_velocity": 0.04819097792866507
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.45,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "move_actions": 121,
+          "speed_sum": 37.18780716612349,
+          "return_vector": [
+            -120.0,
+            37.18780716612349
+          ],
+          "final_position": 0.5200316368155655,
+          "final_velocity": 0.04037723773190128
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.4,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "move_actions": 122,
+          "speed_sum": 32.32521856694489,
+          "return_vector": [
+            -121.0,
+            32.32521856694489
+          ],
+          "final_position": 0.5065959513627183,
+          "final_velocity": 0.03262404769776248
+        }
+      },
+      "equal_weight_adequate_winners": {
+        "-0.6": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            48.33825541379879
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            45.769050315667165
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.5,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "move_actions": 124,
+          "speed_sum": 42.740645313158616,
+          "return_vector": [
+            -123.0,
+            42.740645313158616
+          ],
+          "final_position": 0.5349499825655736,
+          "final_velocity": 0.04819097792866507
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.45,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "move_actions": 121,
+          "speed_sum": 37.18780716612349,
+          "return_vector": [
+            -120.0,
+            37.18780716612349
+          ],
+          "final_position": 0.5200316368155655,
+          "final_velocity": 0.04037723773190128
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.4,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "move_actions": 122,
+          "speed_sum": 32.32521856694489,
+          "return_vector": [
+            -121.0,
+            32.32521856694489
+          ],
+          "final_position": 0.5065959513627183,
+          "final_velocity": 0.03262404769776248
+        }
+      },
+      "momentum": {
+        "-0.6": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.6,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "move_actions": 113,
+          "speed_sum": 48.33825541379879,
+          "return_vector": [
+            -112.0,
+            48.33825541379879
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.55,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "move_actions": 115,
+          "speed_sum": 45.769050315667165,
+          "return_vector": [
+            -114.0,
+            45.769050315667165
+          ],
+          "final_position": 0.5368577983788596,
+          "final_velocity": 0.04995707454335301
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.5,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "move_actions": 124,
+          "speed_sum": 42.740645313158616,
+          "return_vector": [
+            -123.0,
+            42.740645313158616
+          ],
+          "final_position": 0.5349499825655736,
+          "final_velocity": 0.04819097792866507
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.45,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "move_actions": 121,
+          "speed_sum": 37.18780716612349,
+          "return_vector": [
+            -120.0,
+            37.18780716612349
+          ],
+          "final_position": 0.5200316368155655,
+          "final_velocity": 0.04037723773190128
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.4,
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "move_actions": 122,
+          "speed_sum": 32.32521856694489,
+          "return_vector": [
+            -121.0,
+            32.32521856694489
+          ],
+          "final_position": 0.5065959513627183,
+          "final_velocity": 0.03262404769776248
+        }
+      },
+      "coast": {
+        "-0.6": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.6,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.65184005594994,
+          "return_vector": [
+            -200.0,
+            12.65184005594994
+          ],
+          "final_position": -0.526149497985143,
+          "final_velocity": -0.006607887911323845
+        },
+        "-0.55": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.55,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 4.392076974099426,
+          "return_vector": [
+            -200.0,
+            4.392076974099426
+          ],
+          "final_position": -0.5258071166046654,
+          "final_velocity": -0.0022860949466379436
+        },
+        "-0.5": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.5,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 3.926330291801833,
+          "return_vector": [
+            -200.0,
+            3.926330291801833
+          ],
+          "final_position": -0.5215925933932505,
+          "final_velocity": 0.002043422643203296
+        },
+        "-0.45": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.45,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 12.19251203914642,
+          "return_vector": [
+            -200.0,
+            12.19251203914642
+          ],
+          "final_position": -0.5208385447551629,
+          "final_velocity": 0.006366719343921797
+        },
+        "-0.4": {
+          "env": "mo-mountaincar-timespeed-v0",
+          "start": -0.4,
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "move_actions": 0,
+          "speed_sum": 20.29595441411426,
+          "return_vector": [
+            -200.0,
+            20.29595441411426
+          ],
+          "final_position": -0.5309192625540776,
+          "final_velocity": 0.010596214705236482
+        }
+      }
+    }
+  },
+  "timemove_alpha_thresholds": {
+    "-0.6": 0.7787610619469026,
+    "-0.55": 0.7478260869565218,
+    "-0.5": 0.6209677419354839,
+    "-0.45": 0.6611570247933884,
+    "-0.4": 0.6475409836065574
+  },
+  "timespeed_beta_thresholds": {
+    "-0.6": -2.4659243333232497,
+    "-0.55": -2.0784507191975665,
+    "-0.5": -1.983804170127241,
+    "-0.45": -3.2006023371037187,
+    "-0.4": -6.5673177508044285
+  }
+}

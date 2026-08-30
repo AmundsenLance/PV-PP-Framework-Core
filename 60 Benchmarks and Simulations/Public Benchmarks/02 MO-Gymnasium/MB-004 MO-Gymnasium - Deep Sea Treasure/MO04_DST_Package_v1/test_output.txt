@@ -1,0 +1,66 @@
+.FF...F...                                                               [100%]
+=================================== FAILURES ===================================
+_________________________ test_convex_supported_count __________________________
+
+>   def test_convex_supported_count(): assert sum(supported(CONVEX,i) for i in range(10))==9
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   assert 10 == 9
+E    +  where 10 = sum(<generator object test_convex_supported_count.<locals>.<genexpr> at 0x7f918eb47760>)
+
+test_dst.py:19: AssertionError
+_________________________ test_convex_one_unsupported __________________________
+
+>   def test_convex_one_unsupported(): assert [i for i in range(10) if not supported(CONVEX,i)]==[7]
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   assert [] == [7]
+E     
+E     Right contains one more item: 7
+E     
+E     Full diff:
+E     + []
+E     - [
+E     -     7,
+E     - ]
+
+test_dst.py:20: AssertionError
+___________________ test_threshold_convex_unsupported_unique ___________________
+
+    def test_threshold_convex_unsupported_unique():
+        # treasure >=20 and time >= -14 uniquely retains 20.3,-14 among front
+        q=[p for p in CONVEX if p[0]>=20 and p[1]>=-14]
+>       assert q==[(20.3,-14)] and not supported(CONVEX,7)
+E       assert ([(20.3, -14)] == [(20.3, -14)]
+E         
+E         Full diff:
+E           [
+E               (
+E                   20.3,
+E                   -14,
+E               ),
+E           ] and not True)
+E        +  where True = supported([(0.7, -1), (8.2, -3), (11.5, -5), (14, -7), (15.1, -8), (16.1, -9), ...], 7)
+
+test_dst.py:27: AssertionError
+=========================== short test summary info ============================
+FAILED test_dst.py::test_convex_supported_count - assert 10 == 9
+ +  where 10 = sum(<generator object test_convex_supported_count.<locals>.<genexpr> at 0x7f918eb47760>)
+FAILED test_dst.py::test_convex_one_unsupported - assert [] == [7]
+  
+  Right contains one more item: 7
+  
+  Full diff:
+  + []
+  - [
+  -     7,
+  - ]
+FAILED test_dst.py::test_threshold_convex_unsupported_unique - assert ([(20.3, -14)] == [(20.3, -14)]
+  
+  Full diff:
+    [
+        (
+            20.3,
+            -14,
+        ),
+    ] and not True)
+ +  where True = supported([(0.7, -1), (8.2, -3), (11.5, -5), (14, -7), (15.1, -8), (16.1, -9), ...], 7)
+3 failed, 7 passed in 0.06s

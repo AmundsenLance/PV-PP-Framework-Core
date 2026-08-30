@@ -1,0 +1,91 @@
+{
+  "registrations": [
+    "mo-lunar-lander-v3",
+    "mo-lunar-lander-continuous-v3"
+  ],
+  "reward_order": [
+    "terminal outcome",
+    "shaping delta",
+    "main-engine fuel",
+    "side-engine fuel"
+  ],
+  "reward_bounds": {
+    "terminal": [
+      -100,
+      100
+    ],
+    "shaping": [
+      "-inf",
+      "inf"
+    ],
+    "main": [
+      -1,
+      0
+    ],
+    "side": [
+      -1,
+      0
+    ]
+  },
+  "nonterminal_exact_linear_weights": [
+    null,
+    1.0,
+    0.3,
+    0.03
+  ],
+  "global_fixed_linear_recovery_of_original_reward": false,
+  "reason": "Nonterminal transitions require shaping/main/side weights 1/.30/.03, while terminal overwrite semantics require those weights 0 for arbitrary terminal shaping/fuel values.",
+  "probes": {
+    "nonterminal_main": {
+      "vector": [
+        0.0,
+        5.0,
+        -1.0,
+        -0.0
+      ],
+      "original": 4.7,
+      "linear_1_1_.3_.03": 4.7
+    },
+    "nonterminal_side": {
+      "vector": [
+        0.0,
+        -2.0,
+        -0.0,
+        -1.0
+      ],
+      "original": -2.03,
+      "linear_1_1_.3_.03": -2.03
+    },
+    "terminal_land": {
+      "vector": [
+        100.0,
+        5.0,
+        -1.0,
+        -0.0
+      ],
+      "original": 100.0,
+      "linear_1_1_.3_.03": 104.7
+    },
+    "terminal_crash": {
+      "vector": [
+        -100.0,
+        5.0,
+        -1.0,
+        -0.0
+      ],
+      "original": -100.0,
+      "linear_1_1_.3_.03": -95.3
+    }
+  },
+  "continuous_engine_rules": {
+    "main": "fires when action[0] > 0; m_power=(clip(action[0],0,1)+1)/2, hence 0.5..1",
+    "side": "fires when |action[1]| > 0.5; s_power=clip(|action[1]|,0.5,1)"
+  },
+  "discrete_engine_rules": {
+    "0": "do nothing",
+    "1": "left side engine",
+    "2": "main engine",
+    "3": "right side engine"
+  },
+  "runtime_limit": "Source-faithful reward/branch audit only; Gymnasium/Box2D unavailable in container, so no full physics rollout was executed."
+}

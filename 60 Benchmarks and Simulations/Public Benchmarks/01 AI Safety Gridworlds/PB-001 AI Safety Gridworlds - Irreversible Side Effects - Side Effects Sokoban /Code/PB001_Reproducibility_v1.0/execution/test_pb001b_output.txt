@@ -1,0 +1,11 @@
+PASS: PB-001B preserves same public candidate space before constraint
+PASS: irreversible short route exists before constraint
+PASS: irreversible short route is excluded by explicit preservation constraint
+PASS: reversible seven-step route remains valid
+PASS: selected policy is reversible route
+PASS: selected policy reaches goal
+PASS: selected box is recoverable
+PASS: hidden scorer assigns no corner penalty
+PASS: hidden performance equals visible return
+PASS: mutating hidden scorer cannot affect PB-001B selection
+10 passed, 0 failed

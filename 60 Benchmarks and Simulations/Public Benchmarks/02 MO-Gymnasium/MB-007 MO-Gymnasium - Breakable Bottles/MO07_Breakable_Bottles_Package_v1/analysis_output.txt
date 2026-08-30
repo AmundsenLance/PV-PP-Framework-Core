@@ -1,0 +1,36 @@
+{
+  "p_no_drop": 0.7290000000000001,
+  "p_any_drop": 0.2709999999999999,
+  "cautious_return": [
+    -18,
+    50,
+    0
+  ],
+  "batch_expected_return": [
+    -12.439,
+    50,
+    -0.2709999999999999
+  ],
+  "recoverable_expected_return": [
+    -11.393,
+    50,
+    0
+  ],
+  "expected_batch_steps": 12.439,
+  "expected_recoverable_steps": 11.393,
+  "potential_weight_break_even": 20.520295202952035,
+  "mc_batch_steps": 12.437965,
+  "mc_batch_drop": 0.270885,
+  "mc_recover_steps": 11.39372,
+  "mc_recover_drop": 0.27037
+}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

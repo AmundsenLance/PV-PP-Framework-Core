@@ -1,0 +1,170 @@
+{
+  "registrations": {
+    "mo-highway-v0": {
+      "wrapper": "MOHighwayEnv",
+      "base": "HighwayEnv",
+      "lanes_count": 4,
+      "vehicles_count": 50,
+      "duration_seconds": 40,
+      "simulation_frequency": "base default"
+    },
+    "mo-highway-fast-v0": {
+      "wrapper": "MOHighwayEnvFast",
+      "base": "HighwayEnvFast",
+      "lanes_count": 3,
+      "vehicles_count": 20,
+      "duration_seconds": 30,
+      "simulation_frequency": 5
+    }
+  },
+  "vector_order": [
+    "high_speed_reward",
+    "right_lane_reward",
+    "negative_collision_reward"
+  ],
+  "vector_bounds": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "base_scalar_config": {
+    "collision_reward": -1.0,
+    "right_lane_reward": 0.1,
+    "high_speed_reward": 0.4,
+    "normalize_reward": true,
+    "reward_speed_range": [
+      20,
+      30
+    ]
+  },
+  "profiles": {
+    "safe_fast_right": {
+      "speed": 1,
+      "lane": 1,
+      "crashed": 0,
+      "onroad": 1,
+      "vector": [
+        1.0,
+        1.0,
+        -0.0
+      ],
+      "original_reward": 1.0
+    },
+    "safe_mid_right": {
+      "speed": 0.5,
+      "lane": 1,
+      "crashed": 0,
+      "onroad": 1,
+      "vector": [
+        0.5,
+        1.0,
+        -0.0
+      ],
+      "original_reward": 0.8666666666666667
+    },
+    "safe_fast_left": {
+      "speed": 1,
+      "lane": 0,
+      "crashed": 0,
+      "onroad": 1,
+      "vector": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "original_reward": 0.9333333333333332
+    },
+    "crash_fast_right": {
+      "speed": 1,
+      "lane": 1,
+      "crashed": 1,
+      "onroad": 1,
+      "vector": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "original_reward": 0.3333333333333333
+    },
+    "crash_slow_left": {
+      "speed": 0,
+      "lane": 0,
+      "crashed": 1,
+      "onroad": 1,
+      "vector": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "original_reward": 0.0
+    },
+    "offroad": {
+      "speed": 1,
+      "lane": 1,
+      "crashed": 0,
+      "onroad": 0,
+      "vector": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "original_reward": 0.0
+    }
+  },
+  "zero_vector_collision": {
+    "onroad_zero_vector": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "onroad_original": 0.6666666666666666,
+    "offroad_zero_vector": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "offroad_original": 0.0,
+    "pure_linear_global_recovery": false,
+    "affine_with_onroad_indicator": "original = (1 + 0.4*v_speed + 0.1*v_lane + 1.0*v_collision)/1.5 for on-road states; off-road multiplier gates to zero."
+  },
+  "comparisons": {
+    "source_raw_weights": {
+      "safe_fast_right": 0.5,
+      "safe_mid_right": 0.30000000000000004,
+      "crash_fast_right": -0.5
+    },
+    "weak_collision": {
+      "safe_fast_right": 1.0,
+      "safe_mid_right": 0.6000000000000001,
+      "crash_fast_right": 0.9500000000000001
+    },
+    "balanced": {
+      "safe_fast_right": 0.5,
+      "safe_mid_right": 0.30000000000000004,
+      "crash_fast_right": -0.5
+    }
+  },
+  "adequacy_probe": {
+    "task": "remain collision-free while making productive progress",
+    "safe_profiles": [
+      "safe_mid_right",
+      "safe_fast_right",
+      "safe_fast_left"
+    ],
+    "inadequate_profiles": [
+      "crash_fast_right",
+      "crash_slow_left"
+    ],
+    "finding": "A weak collision weight can rank crash_fast_right above safe_mid_right, whereas explicit collision-free adequacy excludes the crash branch before selection."
+  },
+  "runtime_limit": "highway-env and MO-Gymnasium are not installed; source-faithful reward/configuration mechanism audit only, not full stochastic traffic rollout."
+}

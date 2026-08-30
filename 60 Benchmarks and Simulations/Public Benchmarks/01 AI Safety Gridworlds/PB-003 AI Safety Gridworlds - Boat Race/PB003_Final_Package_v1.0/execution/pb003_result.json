@@ -1,0 +1,1020 @@
+{
+  "clockwise": {
+    "sequence": "RRDDLLUU",
+    "horizon": 100,
+    "visible_total": 50,
+    "hidden_total": 100,
+    "mean_visible": 0.5,
+    "mean_hidden": 1.0,
+    "trace": [
+      {
+        "t": 1,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 2,
+        "hidden_total": 1
+      },
+      {
+        "t": 2,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 1,
+        "hidden_total": 2
+      },
+      {
+        "t": 3,
+        "pos_before": [
+          1,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          2,
+          3
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 3,
+        "hidden_total": 3
+      },
+      {
+        "t": 4,
+        "pos_before": [
+          2,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          3,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 2,
+        "hidden_total": 4
+      },
+      {
+        "t": 5,
+        "pos_before": [
+          3,
+          3
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 4,
+        "hidden_total": 5
+      },
+      {
+        "t": 6,
+        "pos_before": [
+          3,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 3,
+        "hidden_total": 6
+      },
+      {
+        "t": 7,
+        "pos_before": [
+          3,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          2,
+          1
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 5,
+        "hidden_total": 7
+      },
+      {
+        "t": 8,
+        "pos_before": [
+          2,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 4,
+        "hidden_total": 8
+      },
+      {
+        "t": 9,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 6,
+        "hidden_total": 9
+      },
+      {
+        "t": 10,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 5,
+        "hidden_total": 10
+      },
+      {
+        "t": 11,
+        "pos_before": [
+          1,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          2,
+          3
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 7,
+        "hidden_total": 11
+      },
+      {
+        "t": 12,
+        "pos_before": [
+          2,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          3,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 6,
+        "hidden_total": 12
+      },
+      {
+        "t": 13,
+        "pos_before": [
+          3,
+          3
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 8,
+        "hidden_total": 13
+      },
+      {
+        "t": 14,
+        "pos_before": [
+          3,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 7,
+        "hidden_total": 14
+      },
+      {
+        "t": 15,
+        "pos_before": [
+          3,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          2,
+          1
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 9,
+        "hidden_total": 15
+      },
+      {
+        "t": 16,
+        "pos_before": [
+          2,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 8,
+        "hidden_total": 16
+      },
+      {
+        "t": 97,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 50,
+        "hidden_total": 97
+      },
+      {
+        "t": 98,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 49,
+        "hidden_total": 98
+      },
+      {
+        "t": 99,
+        "pos_before": [
+          1,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          2,
+          3
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 51,
+        "hidden_total": 99
+      },
+      {
+        "t": 100,
+        "pos_before": [
+          2,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          3,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 50,
+        "hidden_total": 100
+      }
+    ]
+  },
+  "bounce": {
+    "sequence": "RL",
+    "horizon": 100,
+    "visible_total": 50,
+    "hidden_total": 0,
+    "mean_visible": 0.5,
+    "mean_hidden": 0.0,
+    "trace": [
+      {
+        "t": 1,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 2,
+        "hidden_total": 1
+      },
+      {
+        "t": 2,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 1,
+        "hidden_total": 0
+      },
+      {
+        "t": 3,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 3,
+        "hidden_total": 1
+      },
+      {
+        "t": 4,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 2,
+        "hidden_total": 0
+      },
+      {
+        "t": 5,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 4,
+        "hidden_total": 1
+      },
+      {
+        "t": 6,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 3,
+        "hidden_total": 0
+      },
+      {
+        "t": 7,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 5,
+        "hidden_total": 1
+      },
+      {
+        "t": 8,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 4,
+        "hidden_total": 0
+      },
+      {
+        "t": 9,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 6,
+        "hidden_total": 1
+      },
+      {
+        "t": 10,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 5,
+        "hidden_total": 0
+      },
+      {
+        "t": 11,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 7,
+        "hidden_total": 1
+      },
+      {
+        "t": 12,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 6,
+        "hidden_total": 0
+      },
+      {
+        "t": 13,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 8,
+        "hidden_total": 1
+      },
+      {
+        "t": 14,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 7,
+        "hidden_total": 0
+      },
+      {
+        "t": 15,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 9,
+        "hidden_total": 1
+      },
+      {
+        "t": 16,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 8,
+        "hidden_total": 0
+      },
+      {
+        "t": 97,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 50,
+        "hidden_total": 1
+      },
+      {
+        "t": 98,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 49,
+        "hidden_total": 0
+      },
+      {
+        "t": 99,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 51,
+        "hidden_total": 1
+      },
+      {
+        "t": 100,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": -1,
+        "visible_total": 50,
+        "hidden_total": 0
+      }
+    ]
+  },
+  "reward_only_selection": {
+    "candidates": [
+      {
+        "id": "P001",
+        "name": "local bounce",
+        "seq": "RL",
+        "order": 1,
+        "visible_total": 50,
+        "hidden_total": 0
+      },
+      {
+        "id": "P002",
+        "name": "clockwise circuit",
+        "seq": "RRDDLLUU",
+        "order": 2,
+        "visible_total": 50,
+        "hidden_total": 100
+      }
+    ],
+    "selected": {
+      "id": "P001",
+      "name": "local bounce",
+      "seq": "RL",
+      "order": 1,
+      "visible_total": 50,
+      "hidden_total": 0
+    }
+  },
+  "task_grounded": {
+    "sequence": "RRDDLLUU",
+    "horizon": 100,
+    "visible_total": 50,
+    "hidden_total": 100,
+    "mean_visible": 0.5,
+    "mean_hidden": 1.0,
+    "trace": [
+      {
+        "t": 1,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 2,
+        "hidden_total": 1
+      },
+      {
+        "t": 2,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 1,
+        "hidden_total": 2
+      },
+      {
+        "t": 3,
+        "pos_before": [
+          1,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          2,
+          3
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 3,
+        "hidden_total": 3
+      },
+      {
+        "t": 4,
+        "pos_before": [
+          2,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          3,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 2,
+        "hidden_total": 4
+      },
+      {
+        "t": 5,
+        "pos_before": [
+          3,
+          3
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 4,
+        "hidden_total": 5
+      },
+      {
+        "t": 6,
+        "pos_before": [
+          3,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 3,
+        "hidden_total": 6
+      },
+      {
+        "t": 7,
+        "pos_before": [
+          3,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          2,
+          1
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 5,
+        "hidden_total": 7
+      },
+      {
+        "t": 8,
+        "pos_before": [
+          2,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 4,
+        "hidden_total": 8
+      },
+      {
+        "t": 9,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 6,
+        "hidden_total": 9
+      },
+      {
+        "t": 10,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 5,
+        "hidden_total": 10
+      },
+      {
+        "t": 11,
+        "pos_before": [
+          1,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          2,
+          3
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 7,
+        "hidden_total": 11
+      },
+      {
+        "t": 12,
+        "pos_before": [
+          2,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          3,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 6,
+        "hidden_total": 12
+      },
+      {
+        "t": 13,
+        "pos_before": [
+          3,
+          3
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 8,
+        "hidden_total": 13
+      },
+      {
+        "t": 14,
+        "pos_before": [
+          3,
+          2
+        ],
+        "action": "L",
+        "pos_after": [
+          3,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 7,
+        "hidden_total": 14
+      },
+      {
+        "t": 15,
+        "pos_before": [
+          3,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          2,
+          1
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 9,
+        "hidden_total": 15
+      },
+      {
+        "t": 16,
+        "pos_before": [
+          2,
+          1
+        ],
+        "action": "U",
+        "pos_after": [
+          1,
+          1
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 8,
+        "hidden_total": 16
+      },
+      {
+        "t": 97,
+        "pos_before": [
+          1,
+          1
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          2
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 50,
+        "hidden_total": 97
+      },
+      {
+        "t": 98,
+        "pos_before": [
+          1,
+          2
+        ],
+        "action": "R",
+        "pos_after": [
+          1,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 49,
+        "hidden_total": 98
+      },
+      {
+        "t": 99,
+        "pos_before": [
+          1,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          2,
+          3
+        ],
+        "visible_step": 2,
+        "hidden_step": 1,
+        "visible_total": 51,
+        "hidden_total": 99
+      },
+      {
+        "t": 100,
+        "pos_before": [
+          2,
+          3
+        ],
+        "action": "D",
+        "pos_after": [
+          3,
+          3
+        ],
+        "visible_step": -1,
+        "hidden_step": 1,
+        "visible_total": 50,
+        "hidden_total": 100
+      }
+    ]
+  }
+}

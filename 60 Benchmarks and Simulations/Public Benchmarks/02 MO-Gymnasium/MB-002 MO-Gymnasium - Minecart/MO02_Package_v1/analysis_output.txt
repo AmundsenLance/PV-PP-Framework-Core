@@ -1,0 +1,283 @@
+{
+  "total_candidates": 154,
+  "pareto_unique_count": 10,
+  "supported_exact_count": 6,
+  "supported_grid_count": 6,
+  "pareto_points": [
+    {
+      "index": 0,
+      "reward": [
+        0.8000267668928938,
+        0.1595769121605731,
+        -0.78
+      ],
+      "mine": "mine1",
+      "actions": 19,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 1,
+      "reward": [
+        1.250558096570696,
+        0.24944190342930392,
+        -1.0
+      ],
+      "mine": "mine1",
+      "actions": 20,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.295,
+        0.15510000000000002,
+        0.5499
+      ]
+    },
+    {
+      "index": 2,
+      "reward": [
+        0.6008875678084251,
+        0.411049572535798,
+        -0.8200000000000001
+      ],
+      "mine": "mine2",
+      "actions": 21,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 3,
+      "reward": [
+        0.8906989533026118,
+        0.6093010466973883,
+        -1.04
+      ],
+      "mine": "mine2",
+      "actions": 22,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.5000000000000002,
+        0.49999999999999994,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "index": 4,
+      "reward": [
+        0.75,
+        0.75,
+        -0.8800000000000001
+      ],
+      "mine": "mine3",
+      "actions": 24,
+      "mine_actions": 1,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.5000000000000001,
+        0.5,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.165,
+        0.28807499999999997,
+        0.546925
+      ]
+    },
+    {
+      "index": 5,
+      "reward": [
+        0.411049572535798,
+        0.6008875678084251,
+        -0.8200000000000001
+      ],
+      "mine": "mine4",
+      "actions": 21,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 6,
+      "reward": [
+        0.6093010466973883,
+        0.8906989533026118,
+        -1.04
+      ],
+      "mine": "mine4",
+      "actions": 22,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.5000000000000002,
+        0.4999999999999998,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "index": 7,
+      "reward": [
+        0.1595769121605731,
+        0.8000267668928938,
+        -0.78
+      ],
+      "mine": "mine5",
+      "actions": 19,
+      "mine_actions": 1,
+      "exact_supported": false,
+      "exact_weight_witness": null,
+      "grid_supported": false,
+      "grid_weight_witness": null
+    },
+    {
+      "index": 8,
+      "reward": [
+        0.24944190342930392,
+        1.250558096570696,
+        -1.0
+      ],
+      "mine": "mine5",
+      "actions": 20,
+      "mine_actions": 2,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.0,
+        0.375,
+        0.625
+      ]
+    },
+    {
+      "index": 9,
+      "reward": [
+        0.0,
+        0.0,
+        -0.26
+      ],
+      "mine": "virtual_empty",
+      "actions": 8,
+      "mine_actions": 0,
+      "exact_supported": true,
+      "exact_weight_witness": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "grid_supported": true,
+      "grid_weight_witness": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "probes": {
+    "ore1_priority": {
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "index": 1,
+      "reward": [
+        1.250558096570696,
+        0.24944190342930392,
+        -1.0
+      ],
+      "score": 0.8252790482853479,
+      "mine": "mine1"
+    },
+    "balanced_ores": {
+      "weights": [
+        0.45,
+        0.45,
+        0.1
+      ],
+      "index": 4,
+      "reward": [
+        0.75,
+        0.75,
+        -0.8800000000000001
+      ],
+      "score": 0.5870000000000001,
+      "mine": "mine3"
+    },
+    "ore2_priority": {
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "index": 8,
+      "reward": [
+        0.24944190342930392,
+        1.250558096570696,
+        -1.0
+      ],
+      "score": 0.8252790482853479,
+      "mine": "mine5"
+    },
+    "fuel_sensitive_balanced": {
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "index": 4,
+      "reward": [
+        0.75,
+        0.75,
+        -0.8800000000000001
+      ],
+      "score": 0.09799999999999989,
+      "mine": "mine3"
+    },
+    "fuel_dominant": {
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "index": 9,
+      "reward": [
+        0.0,
+        0.0,
+        -0.26
+      ],
+      "score": -0.20800000000000002,
+      "mine": "virtual_empty"
+    }
+  }
+}

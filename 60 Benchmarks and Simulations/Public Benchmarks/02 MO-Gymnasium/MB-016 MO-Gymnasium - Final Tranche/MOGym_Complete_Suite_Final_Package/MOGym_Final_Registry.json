@@ -1,0 +1,45 @@
+{
+  "version": "1.3.2",
+  "categories": {
+    "Grid-World": [
+      "deep-sea-treasure-v0",
+      "deep-sea-treasure-concave-v0",
+      "deep-sea-treasure-mirrored-v0",
+      "resource-gathering-v0",
+      "fishwood-v0",
+      "breakable-bottles-v0",
+      "fruit-tree-v0",
+      "four-room-v0"
+    ],
+    "Classic Control": [
+      "mo-mountaincar-v0",
+      "mo-mountaincar-3d-v0",
+      "mo-mountaincar-timemove-v0",
+      "mo-mountaincar-timespeed-v0",
+      "mo-mountaincarcontinuous-v0",
+      "mo-lunar-lander-v3",
+      "mo-lunar-lander-continuous-v3"
+    ],
+    "Miscellaneous": [
+      "water-reservoir-v0",
+      "minecart-v0",
+      "minecart-rgb-v0",
+      "minecart-deterministic-v0",
+      "mo-highway-v0",
+      "mo-highway-fast-v0",
+      "mo-supermario-v0"
+    ],
+    "MuJoCo": [
+      "mo-reacher-v5",
+      "mo-hopper-v5",
+      "mo-hopper-2obj-v5",
+      "mo-halfcheetah-v5",
+      "mo-walker2d-v5",
+      "mo-ant-v5",
+      "mo-ant-2obj-v5",
+      "mo-swimmer-v5",
+      "mo-humanoid-v5"
+    ]
+  },
+  "total": 31
+}

@@ -1,0 +1,166 @@
+{
+  "frozen_version": "MO-Gymnasium 1.3.2 public source/docs state",
+  "family_count": 7,
+  "registration_count": 9,
+  "registrations": [
+    {
+      "id": "mo-reacher-v5",
+      "family": "Reacher",
+      "objectives": [
+        "target_1",
+        "target_2",
+        "target_3",
+        "target_4"
+      ],
+      "classification": "P",
+      "scalar_note": "No canonical single scalar recovery claim frozen; four target-specific consequences remain explicit."
+    },
+    {
+      "id": "mo-hopper-v5",
+      "family": "Hopper",
+      "objectives": [
+        "velocity",
+        "height",
+        "energy"
+      ],
+      "classification": "C/P",
+      "scalar_note": "Documentation states original Hopper-v5 is recovered by weights [1.0, 0.0, 1e-3]."
+    },
+    {
+      "id": "mo-hopper-2obj-v5",
+      "family": "Hopper",
+      "objectives": [
+        "velocity+cost/health terms",
+        "height+cost/health terms"
+      ],
+      "classification": "C",
+      "scalar_note": "Cost objective is folded into the remaining objectives rather than exposed separately."
+    },
+    {
+      "id": "mo-halfcheetah-v5",
+      "family": "HalfCheetah",
+      "objectives": [
+        "velocity",
+        "energy"
+      ],
+      "classification": "C",
+      "scalar_note": "Documentation states original HalfCheetah-v5 is recovered by weights [1.0, 0.1]."
+    },
+    {
+      "id": "mo-walker2d-v5",
+      "family": "Walker2D",
+      "objectives": [
+        "velocity",
+        "energy"
+      ],
+      "classification": "C",
+      "scalar_note": "Documentation states original Walker2d-v5 is recovered by weights [1.0, 1e-3]."
+    },
+    {
+      "id": "mo-ant-v5",
+      "family": "Ant",
+      "objectives": [
+        "x_velocity",
+        "y_velocity",
+        "energy"
+      ],
+      "classification": "P/C",
+      "scalar_note": "Direction and energy remain explicit; current page also documents a 2-objective folded-cost form."
+    },
+    {
+      "id": "mo-ant-2obj-v5",
+      "family": "Ant",
+      "objectives": [
+        "x_velocity+shared terms",
+        "y_velocity+shared terms"
+      ],
+      "classification": "C/P",
+      "scalar_note": "Separate energy objective is folded into directional objectives."
+    },
+    {
+      "id": "mo-swimmer-v5",
+      "family": "Swimmer",
+      "objectives": [
+        "velocity",
+        "energy"
+      ],
+      "classification": "C",
+      "scalar_note": "Documentation states original Swimmer-v5 is recovered by weights [1.0, 1e-4]."
+    },
+    {
+      "id": "mo-humanoid-v5",
+      "family": "Humanoid",
+      "objectives": [
+        "velocity",
+        "energy"
+      ],
+      "classification": "C",
+      "scalar_note": "Documentation states original Humanoid-v5 is recovered by weights [1.25, 0.1]."
+    }
+  ],
+  "runtime_available": false,
+  "runtime_note": "gymnasium, mujoco, and mo_gymnasium are not installed in the execution container.",
+  "architecture_changes": 0,
+  "formalization_gaps": 0,
+  "architecture_failures": 0,
+  "families": {
+    "Reacher": {
+      "ids": [
+        "mo-reacher-v5"
+      ],
+      "finding": "Four target-specific distance rewards are preserved as separate consequences. A scalar can impose a target preference or compromise, but the benchmark itself does not justify collapsing the four target relations before framing the task.",
+      "class": "P - multidimensional target preservation",
+      "boundary": "Source/mechanism audit only; no MuJoCo physics rollout."
+    },
+    "Hopper": {
+      "ids": [
+        "mo-hopper-v5",
+        "mo-hopper-2obj-v5"
+      ],
+      "finding": "The three-objective form explicitly separates forward velocity, jump height, and control cost. The documented weights [1,0,1e-3] recover the original single-objective Hopper reward, providing a clean scalar-containment control. The 2-objective registration folds cost into the remaining objectives and is a representation variant, not a new decision primitive.",
+      "class": "C/P - scalar containment with optional extra objective",
+      "boundary": "No learned-policy or full-dynamics comparison."
+    },
+    "HalfCheetah": {
+      "ids": [
+        "mo-halfcheetah-v5"
+      ],
+      "finding": "The two objectives are forward velocity and control cost. The documentation explicitly gives [1,0.1] as a linear scalarization recovering original HalfCheetah-v5. This is direct containment evidence: preserving the vector does not prevent safe reduction when a stable mapping is known.",
+      "class": "C - scalar containment",
+      "boundary": "No claim that other weights are normatively wrong."
+    },
+    "Walker2D": {
+      "ids": [
+        "mo-walker2d-v5"
+      ],
+      "finding": "Forward velocity and control cost remain explicit, while [1,1e-3] is documented to recover original Walker2d-v5. This is another clean containment case under a stable mapping.",
+      "class": "C - scalar containment",
+      "boundary": "No policy-performance claim."
+    },
+    "Ant": {
+      "ids": [
+        "mo-ant-v5",
+        "mo-ant-2obj-v5"
+      ],
+      "finding": "The three-objective form exposes x velocity, y velocity, and control cost. Directional objectives make the desired heading a framing choice rather than a universal scalar fact. The 2-objective registration folds cost/shared terms into the directional objectives. Existing PV-PP Domain Framing and multidomain selection are sufficient.",
+      "class": "P/C - directional preservation plus folded-cost containment",
+      "boundary": "The current Ant documentation contains a stale-looking v4 identifier in its scalarization example; this audit follows current v5 registration names and does not silently repair that example."
+    },
+    "Swimmer": {
+      "ids": [
+        "mo-swimmer-v5"
+      ],
+      "finding": "Forward velocity and control cost form a two-objective vector. The documented [1,1e-4] weighting recovers original Swimmer-v5, providing another scalar-containment control.",
+      "class": "C - scalar containment",
+      "boundary": "No full MuJoCo rollout."
+    },
+    "Humanoid": {
+      "ids": [
+        "mo-humanoid-v5"
+      ],
+      "finding": "Forward velocity and control cost are separated. The documented [1.25,0.1] weighting recovers original Humanoid-v5. The case supports conditional reduction rather than universal resistance to scalarization.",
+      "class": "C - scalar containment",
+      "boundary": "No learned-policy or physics-performance comparison."
+    }
+  }
+}

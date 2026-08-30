@@ -1,0 +1,18 @@
+import unittest,json
+R=json.load(open(r"/mnt/data/mo14_highway/mo14_result.json"))
+class T(unittest.TestCase):
+ def test_regs(self): self.assertEqual(set(R["registrations"]),{"mo-highway-v0","mo-highway-fast-v0"})
+ def test_dim(self): self.assertEqual(len(R["vector_order"]),3)
+ def test_safe_fast(self): self.assertEqual(R["profiles"]["safe_fast_right"]["vector"],[1.0,1.0,-0.0])
+ def test_crash_component(self): self.assertEqual(R["profiles"]["crash_fast_right"]["vector"][2],-1.0)
+ def test_safe_fast_original(self): self.assertAlmostEqual(R["profiles"]["safe_fast_right"]["original_reward"],1.0)
+ def test_crash_positive_normalized(self): self.assertGreater(R["profiles"]["crash_fast_right"]["original_reward"],0.0)
+ def test_crash_exact(self): self.assertAlmostEqual(R["profiles"]["crash_fast_right"]["original_reward"],1/3)
+ def test_offroad_zero(self): self.assertEqual(R["profiles"]["offroad"]["original_reward"],0.0)
+ def test_zero_vector_same(self): self.assertEqual(R["zero_vector_collision"]["onroad_zero_vector"],R["zero_vector_collision"]["offroad_zero_vector"])
+ def test_zero_original_differs(self): self.assertNotEqual(R["zero_vector_collision"]["onroad_original"],R["zero_vector_collision"]["offroad_original"])
+ def test_no_pure_linear_global_recovery(self): self.assertFalse(R["zero_vector_collision"]["pure_linear_global_recovery"])
+ def test_weak_collision_can_prefer_crash(self): self.assertGreater(R["comparisons"]["weak_collision"]["crash_fast_right"],R["comparisons"]["weak_collision"]["safe_mid_right"])
+ def test_source_weights_safe_prefer(self): self.assertGreater(R["comparisons"]["source_raw_weights"]["safe_mid_right"],R["comparisons"]["source_raw_weights"]["crash_fast_right"])
+ def test_fast_geometry_differs(self): self.assertNotEqual(R["registrations"]["mo-highway-v0"]["lanes_count"],R["registrations"]["mo-highway-fast-v0"]["lanes_count"])
+if __name__=='__main__': unittest.main()

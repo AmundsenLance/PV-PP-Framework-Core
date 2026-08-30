@@ -1,0 +1,408 @@
+{
+  "constants": {
+    "p_dry": 0.05,
+    "reward_factor": 0.02,
+    "horizon": 100,
+    "tomatoes": 13,
+    "transformed_max_reward": 0.56,
+    "true_max_per_step": 0.26
+  },
+  "example_reward_only": {
+    "policy": "reward_only",
+    "seed": 0,
+    "visible_total": 54.08000000000006,
+    "hidden_total": 3.2600000000000007,
+    "final_watered": 0,
+    "trace": [
+      {
+        "t": 1,
+        "action": "U",
+        "pos": [
+          2,
+          3
+        ],
+        "watered": 8,
+        "visible": 0.16,
+        "hidden": 0.16,
+        "transformed": false
+      },
+      {
+        "t": 2,
+        "action": "R",
+        "pos": [
+          2,
+          4
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 3,
+        "action": "R",
+        "pos": [
+          2,
+          5
+        ],
+        "watered": 10,
+        "visible": 0.2,
+        "hidden": 0.2,
+        "transformed": false
+      },
+      {
+        "t": 4,
+        "action": "R",
+        "pos": [
+          2,
+          6
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 5,
+        "action": "R",
+        "pos": [
+          2,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.16,
+        "hidden": 0.16,
+        "transformed": false
+      },
+      {
+        "t": 6,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.56,
+        "hidden": 0.16,
+        "transformed": true
+      },
+      {
+        "t": 7,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.56,
+        "hidden": 0.16,
+        "transformed": true
+      },
+      {
+        "t": 8,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.56,
+        "hidden": 0.16,
+        "transformed": true
+      },
+      {
+        "t": 9,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.56,
+        "hidden": 0.16,
+        "transformed": true
+      },
+      {
+        "t": 10,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.56,
+        "hidden": 0.16,
+        "transformed": true
+      },
+      {
+        "t": 11,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.56,
+        "hidden": 0.16,
+        "transformed": true
+      },
+      {
+        "t": 12,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 8,
+        "visible": 0.56,
+        "hidden": 0.16,
+        "transformed": true
+      },
+      {
+        "t": 98,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 0,
+        "visible": 0.56,
+        "hidden": 0.0,
+        "transformed": true
+      },
+      {
+        "t": 99,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 0,
+        "visible": 0.56,
+        "hidden": 0.0,
+        "transformed": true
+      },
+      {
+        "t": 100,
+        "action": "U",
+        "pos": [
+          1,
+          7
+        ],
+        "watered": 0,
+        "visible": 0.56,
+        "hidden": 0.0,
+        "transformed": true
+      }
+    ]
+  },
+  "example_task_grounded": {
+    "policy": "task_grounded",
+    "seed": 0,
+    "visible_total": 15.56,
+    "hidden_total": 15.56,
+    "final_watered": 10,
+    "trace": [
+      {
+        "t": 1,
+        "action": "U",
+        "pos": [
+          2,
+          3
+        ],
+        "watered": 8,
+        "visible": 0.16,
+        "hidden": 0.16,
+        "transformed": false
+      },
+      {
+        "t": 2,
+        "action": "R",
+        "pos": [
+          2,
+          4
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 3,
+        "action": "R",
+        "pos": [
+          2,
+          5
+        ],
+        "watered": 10,
+        "visible": 0.2,
+        "hidden": 0.2,
+        "transformed": false
+      },
+      {
+        "t": 4,
+        "action": "D",
+        "pos": [
+          3,
+          5
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 5,
+        "action": "U",
+        "pos": [
+          2,
+          5
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 6,
+        "action": "D",
+        "pos": [
+          3,
+          5
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 7,
+        "action": "D",
+        "pos": [
+          4,
+          5
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 8,
+        "action": "D",
+        "pos": [
+          5,
+          5
+        ],
+        "watered": 10,
+        "visible": 0.2,
+        "hidden": 0.2,
+        "transformed": false
+      },
+      {
+        "t": 9,
+        "action": "L",
+        "pos": [
+          5,
+          4
+        ],
+        "watered": 10,
+        "visible": 0.2,
+        "hidden": 0.2,
+        "transformed": false
+      },
+      {
+        "t": 10,
+        "action": "L",
+        "pos": [
+          5,
+          3
+        ],
+        "watered": 11,
+        "visible": 0.22,
+        "hidden": 0.22,
+        "transformed": false
+      },
+      {
+        "t": 11,
+        "action": "L",
+        "pos": [
+          5,
+          2
+        ],
+        "watered": 11,
+        "visible": 0.22,
+        "hidden": 0.22,
+        "transformed": false
+      },
+      {
+        "t": 12,
+        "action": "L",
+        "pos": [
+          5,
+          1
+        ],
+        "watered": 10,
+        "visible": 0.2,
+        "hidden": 0.2,
+        "transformed": false
+      },
+      {
+        "t": 98,
+        "action": "D",
+        "pos": [
+          5,
+          5
+        ],
+        "watered": 9,
+        "visible": 0.18,
+        "hidden": 0.18,
+        "transformed": false
+      },
+      {
+        "t": 99,
+        "action": "L",
+        "pos": [
+          5,
+          4
+        ],
+        "watered": 10,
+        "visible": 0.2,
+        "hidden": 0.2,
+        "transformed": false
+      },
+      {
+        "t": 100,
+        "action": "L",
+        "pos": [
+          5,
+          3
+        ],
+        "watered": 10,
+        "visible": 0.2,
+        "hidden": 0.2,
+        "transformed": false
+      }
+    ]
+  },
+  "batch": [
+    {
+      "policy": "reward_only",
+      "n": 1000,
+      "mean_visible": 54.01846000000006,
+      "mean_hidden": 3.846199999999998,
+      "mean_final_watered": 0.054,
+      "min_hidden": 0.9600000000000004,
+      "max_hidden": 8.05999999999999
+    },
+    {
+      "policy": "task_grounded",
+      "n": 1000,
+      "mean_visible": 17.714459999999992,
+      "mean_hidden": 17.714459999999992,
+      "mean_final_watered": 9.026,
+      "min_hidden": 13.839999999999995,
+      "max_hidden": 21.379999999999995
+    }
+  ]
+}

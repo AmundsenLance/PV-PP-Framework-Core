@@ -1,0 +1,40 @@
+[32m.[0m[32m.[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[31m                                                              [100%][0m
+=================================== FAILURES ===================================
+[31m[1m__________________ test_naive_can_develop_avoidance_incentive __________________[0m
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_naive_can_develop_avoidance_incentive[39;49;00m():[90m[39;49;00m
+>       [94massert[39;49;00m naive_policy([94m1.0[39;49;00m)==[33m"[39;49;00m[33mAVOID_SWITCH[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+[1m[31mE       AssertionError: assert 'GO_SWITCH' == 'AVOID_SWITCH'[0m
+[1m[31mE         [0m
+[1m[31mE         [0m[91m- AVOID_SWITCH[39;49;00m[90m[39;49;00m[0m
+[1m[31mE         ? ^^ --[90m[39;49;00m[0m
+[1m[31mE         [92m+ GO_SWITCH[39;49;00m[90m[39;49;00m[0m
+[1m[31mE         ? ^[90m[39;49;00m[0m
+
+[1m[31mtest_pb007.py[0m:15: AssertionError
+[31m[1m__________________ test_naive_policy_changes_with_probability __________________[0m
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_naive_policy_changes_with_probability[39;49;00m():[90m[39;49;00m
+        sels={x[[33m"[39;49;00m[33mnaive_selected[39;49;00m[33m"[39;49;00m] [94mfor[39;49;00m x [95min[39;49;00m sweep()}[90m[39;49;00m
+>       [94massert[39;49;00m [96mlen[39;49;00m(sels)>[94m1[39;49;00m[90m[39;49;00m
+[1m[31mE       AssertionError: assert 1 > 1[0m
+[1m[31mE        +  where 1 = len({'GO_SWITCH'})[0m
+
+[1m[31mtest_pb007.py[0m:28: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test_pb007.py::[1mtest_naive_can_develop_avoidance_incentive[0m - AssertionError: assert 'GO_SWITCH' == 'AVOID_SWITCH'
+  
+  [0m[91m- AVOID_SWITCH[39;49;00m[90m[39;49;00m
+  ? ^^ --[90m[39;49;00m
+  [92m+ GO_SWITCH[39;49;00m[90m[39;49;00m
+  ? ^[90m[39;49;00m
+[31mFAILED[0m test_pb007.py::[1mtest_naive_policy_changes_with_probability[0m - AssertionError: assert 1 > 1
+ +  where 1 = len({'GO_SWITCH'})
+[31m[31m[1m2 failed[0m, [32m9 passed[0m[31m in 0.15s[0m[0m
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 772, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py", line 37, in get_or_create_client
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py", line 124, in start_daemon
+TimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.

@@ -1,0 +1,16 @@
+import unittest,json
+R=json.load(open('/mnt/data/mo09_four_room/mo09_result.json'))
+class T(unittest.TestCase):
+ def test_items(self): self.assertEqual(R['item_count'],12)
+ def test_four_each(self): self.assertEqual(R['items_per_type'],{'1':4,'2':4,'3':4})
+ def test_terminal_vectors(self): self.assertEqual(R['distinct_terminal_vectors'],125)
+ def test_unique_undiscounted_pareto(self): self.assertEqual(R['pareto_vectors'],[[5,5,5]])
+ def test_direct_reward(self): self.assertEqual(R['direct_goal_vector'],[1,1,1])
+ def test_full_reward(self): self.assertEqual(R['full_collection_vector'],[5,5,5])
+ def test_direct_steps(self): self.assertEqual(R['shortest_direct_goal_steps'],24)
+ def test_one_each_steps(self): self.assertEqual(R['shortest_collect_one_each_steps'],28)
+ def test_all_steps(self): self.assertEqual(R['shortest_collect_all_steps'],68)
+ def test_one_each_costs_more_than_direct(self): self.assertGreater(R['shortest_collect_one_each_steps'],R['shortest_direct_goal_steps'])
+ def test_all_costs_more_than_one_each(self): self.assertGreater(R['shortest_collect_all_steps'],R['shortest_collect_one_each_steps'])
+ def test_augmented_state_nontrivial(self): self.assertGreater(R['visited_augmented_states'],500000)
+if __name__=='__main__': unittest.main()

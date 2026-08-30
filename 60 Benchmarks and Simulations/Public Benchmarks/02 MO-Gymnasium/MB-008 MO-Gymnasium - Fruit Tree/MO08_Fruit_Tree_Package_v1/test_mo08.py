@@ -1,0 +1,16 @@
+import unittest, json, numpy as np
+R=json.load(open("/mnt/data/mo08_fruit_tree/mo08_result.json"))
+class TestFruitTree(unittest.TestCase):
+    def test_depth5_leaf_count(self): self.assertEqual(R["depth5_leaf_count"],32)
+    def test_all_depth5_source_leaves_pareto(self): self.assertEqual(R["depth5_pareto_count"],32)
+    def test_all_depth5_linearly_uniquely_supported(self): self.assertEqual(R["depth5_supported_count"],32)
+    def test_positive_min_support_margin(self): self.assertGreater(R["depth5_min_unique_support_margin"],0)
+    def test_equal_weight_leaf(self): self.assertEqual(R["equal_weight_leaf"],15)
+    def test_maximin_same_leaf(self): self.assertEqual(R["maximin_leaf"],15)
+    def test_joint_threshold_unique(self): self.assertEqual(R["adequate_all_ge_3_indices"],[15])
+    def test_joint_threshold_value(self): self.assertGreaterEqual(min(R["equal_weight_vector"]),3.0)
+    def test_depth5_endpoints_6d(self): self.assertEqual(len(R["endpoints"]["5"]["left"]),6)
+    def test_depth6_endpoints_6d(self): self.assertEqual(len(R["endpoints"]["6"]["right"]),6)
+    def test_depth7_endpoints_6d(self): self.assertEqual(len(R["endpoints"]["7"]["left"]),6)
+    def test_depths_have_distinct_endpoint_rewards(self): self.assertNotEqual(R["endpoints"]["5"]["left"],R["endpoints"]["6"]["left"])
+if __name__=="__main__": unittest.main()

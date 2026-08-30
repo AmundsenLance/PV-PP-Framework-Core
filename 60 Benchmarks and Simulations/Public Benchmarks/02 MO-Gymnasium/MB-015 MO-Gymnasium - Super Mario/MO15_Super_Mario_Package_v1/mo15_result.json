@@ -1,0 +1,102 @@
+{
+  "registration": "mo-supermario-v0",
+  "action_space": "Discrete(256)",
+  "observation_shape": [
+    240,
+    256,
+    3
+  ],
+  "reward_order": [
+    "x progress",
+    "time",
+    "death",
+    "coin",
+    "enemy"
+  ],
+  "reward_bounds": {
+    "x": [
+      "-inf",
+      "inf"
+    ],
+    "time": [
+      "-inf",
+      0
+    ],
+    "death": [
+      -25,
+      0
+    ],
+    "coin": [
+      0,
+      100
+    ],
+    "enemy": [
+      0,
+      "inf"
+    ]
+  },
+  "termination": [
+    "Mario dies",
+    "Mario reaches flag"
+  ],
+  "optional_dependencies": [
+    "nes-py",
+    "gym-super-mario-bros",
+    "numpy<2.0"
+  ],
+  "controlled_policies": {
+    "safe_progress": [
+      40,
+      -10,
+      0,
+      0,
+      0
+    ],
+    "coin_detour": [
+      30,
+      -14,
+      0,
+      100,
+      0
+    ],
+    "enemy_detour": [
+      32,
+      -12,
+      0,
+      0,
+      200
+    ],
+    "fatal_progress": [
+      55,
+      -8,
+      -25,
+      0,
+      0
+    ],
+    "fatal_coin": [
+      45,
+      -12,
+      -25,
+      100,
+      0
+    ]
+  },
+  "controlled_weights": [
+    1,
+    0.1,
+    0.2,
+    0.02,
+    0.005
+  ],
+  "controlled_scores": {
+    "safe_progress": 39.0,
+    "coin_detour": 30.6,
+    "enemy_detour": 31.8,
+    "fatal_progress": 49.2,
+    "fatal_coin": 40.8
+  },
+  "scalar_winner": "fatal_progress",
+  "adequacy_rule": "death component must equal 0 before ranking productive progress/side rewards",
+  "adequacy_winner": "safe_progress",
+  "claim_boundary": "Source-faithful reward/termination audit only; no NES rollout or trained-policy comparison."
+}

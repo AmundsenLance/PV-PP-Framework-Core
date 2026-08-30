@@ -1,0 +1,437 @@
+{
+  "benchmark": "MO-01 MO-MountainCar",
+  "starts": [
+    -0.6,
+    -0.55,
+    -0.5,
+    -0.45,
+    -0.4
+  ],
+  "policies": [
+    "momentum",
+    "position_switch",
+    "always_right",
+    "always_left",
+    "coast",
+    "alternate"
+  ],
+  "rows": [
+    {
+      "start": -0.6,
+      "containment_alpha_threshold": 0.7699115044247788,
+      "episodes": [
+        {
+          "policy": "momentum",
+          "reached": true,
+          "steps": 113,
+          "reverse": 34,
+          "forward": 79,
+          "vector": [
+            -113.0,
+            -34.0,
+            -79.0
+          ]
+        },
+        {
+          "policy": "position_switch",
+          "reached": false,
+          "steps": 200,
+          "reverse": 60,
+          "forward": 140,
+          "vector": [
+            -200.0,
+            -60.0,
+            -140.0
+          ]
+        },
+        {
+          "policy": "always_right",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 200,
+          "vector": [
+            -200.0,
+            -0.0,
+            -200.0
+          ]
+        },
+        {
+          "policy": "always_left",
+          "reached": false,
+          "steps": 200,
+          "reverse": 200,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -200.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "alternate",
+          "reached": false,
+          "steps": 200,
+          "reverse": 100,
+          "forward": 100,
+          "vector": [
+            -200.0,
+            -100.0,
+            -100.0
+          ]
+        }
+      ],
+      "global_winner_alpha_0": "momentum",
+      "global_winner_alpha_0.1": "momentum",
+      "global_winner_alpha_0.5": "momentum",
+      "global_winner_alpha_1.0": "coast",
+      "pvpp_adequate_winner_alpha_1": "momentum"
+    },
+    {
+      "start": -0.55,
+      "containment_alpha_threshold": 0.7391304347826086,
+      "episodes": [
+        {
+          "policy": "momentum",
+          "reached": true,
+          "steps": 115,
+          "reverse": 37,
+          "forward": 78,
+          "vector": [
+            -115.0,
+            -37.0,
+            -78.0
+          ]
+        },
+        {
+          "policy": "position_switch",
+          "reached": false,
+          "steps": 200,
+          "reverse": 56,
+          "forward": 144,
+          "vector": [
+            -200.0,
+            -56.0,
+            -144.0
+          ]
+        },
+        {
+          "policy": "always_right",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 200,
+          "vector": [
+            -200.0,
+            -0.0,
+            -200.0
+          ]
+        },
+        {
+          "policy": "always_left",
+          "reached": false,
+          "steps": 200,
+          "reverse": 200,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -200.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "alternate",
+          "reached": false,
+          "steps": 200,
+          "reverse": 100,
+          "forward": 100,
+          "vector": [
+            -200.0,
+            -100.0,
+            -100.0
+          ]
+        }
+      ],
+      "global_winner_alpha_0": "momentum",
+      "global_winner_alpha_0.1": "momentum",
+      "global_winner_alpha_0.5": "momentum",
+      "global_winner_alpha_1.0": "coast",
+      "pvpp_adequate_winner_alpha_1": "momentum"
+    },
+    {
+      "start": -0.5,
+      "containment_alpha_threshold": 0.6129032258064515,
+      "episodes": [
+        {
+          "policy": "momentum",
+          "reached": true,
+          "steps": 124,
+          "reverse": 46,
+          "forward": 78,
+          "vector": [
+            -124.0,
+            -46.0,
+            -78.0
+          ]
+        },
+        {
+          "policy": "position_switch",
+          "reached": false,
+          "steps": 200,
+          "reverse": 51,
+          "forward": 149,
+          "vector": [
+            -200.0,
+            -51.0,
+            -149.0
+          ]
+        },
+        {
+          "policy": "always_right",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 200,
+          "vector": [
+            -200.0,
+            -0.0,
+            -200.0
+          ]
+        },
+        {
+          "policy": "always_left",
+          "reached": false,
+          "steps": 200,
+          "reverse": 200,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -200.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "alternate",
+          "reached": false,
+          "steps": 200,
+          "reverse": 100,
+          "forward": 100,
+          "vector": [
+            -200.0,
+            -100.0,
+            -100.0
+          ]
+        }
+      ],
+      "global_winner_alpha_0": "momentum",
+      "global_winner_alpha_0.1": "momentum",
+      "global_winner_alpha_0.5": "momentum",
+      "global_winner_alpha_1.0": "coast",
+      "pvpp_adequate_winner_alpha_1": "momentum"
+    },
+    {
+      "start": -0.45,
+      "containment_alpha_threshold": 0.6528925619834711,
+      "episodes": [
+        {
+          "policy": "momentum",
+          "reached": true,
+          "steps": 121,
+          "reverse": 43,
+          "forward": 78,
+          "vector": [
+            -121.0,
+            -43.0,
+            -78.0
+          ]
+        },
+        {
+          "policy": "position_switch",
+          "reached": false,
+          "steps": 200,
+          "reverse": 48,
+          "forward": 152,
+          "vector": [
+            -200.0,
+            -48.0,
+            -152.0
+          ]
+        },
+        {
+          "policy": "always_right",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 200,
+          "vector": [
+            -200.0,
+            -0.0,
+            -200.0
+          ]
+        },
+        {
+          "policy": "always_left",
+          "reached": false,
+          "steps": 200,
+          "reverse": 200,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -200.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "alternate",
+          "reached": false,
+          "steps": 200,
+          "reverse": 100,
+          "forward": 100,
+          "vector": [
+            -200.0,
+            -100.0,
+            -100.0
+          ]
+        }
+      ],
+      "global_winner_alpha_0": "momentum",
+      "global_winner_alpha_0.1": "momentum",
+      "global_winner_alpha_0.5": "momentum",
+      "global_winner_alpha_1.0": "coast",
+      "pvpp_adequate_winner_alpha_1": "momentum"
+    },
+    {
+      "start": -0.4,
+      "containment_alpha_threshold": 0.639344262295082,
+      "episodes": [
+        {
+          "policy": "momentum",
+          "reached": true,
+          "steps": 122,
+          "reverse": 42,
+          "forward": 80,
+          "vector": [
+            -122.0,
+            -42.0,
+            -80.0
+          ]
+        },
+        {
+          "policy": "position_switch",
+          "reached": false,
+          "steps": 200,
+          "reverse": 45,
+          "forward": 155,
+          "vector": [
+            -200.0,
+            -45.0,
+            -155.0
+          ]
+        },
+        {
+          "policy": "always_right",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 200,
+          "vector": [
+            -200.0,
+            -0.0,
+            -200.0
+          ]
+        },
+        {
+          "policy": "always_left",
+          "reached": false,
+          "steps": 200,
+          "reverse": 200,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -200.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "coast",
+          "reached": false,
+          "steps": 200,
+          "reverse": 0,
+          "forward": 0,
+          "vector": [
+            -200.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "policy": "alternate",
+          "reached": false,
+          "steps": 200,
+          "reverse": 100,
+          "forward": 100,
+          "vector": [
+            -200.0,
+            -100.0,
+            -100.0
+          ]
+        }
+      ],
+      "global_winner_alpha_0": "momentum",
+      "global_winner_alpha_0.1": "momentum",
+      "global_winner_alpha_0.5": "momentum",
+      "global_winner_alpha_1.0": "coast",
+      "pvpp_adequate_winner_alpha_1": "momentum"
+    }
+  ],
+  "min_containment_alpha_threshold": 0.6129032258064515,
+  "regression": "11 passed, 0 failed"
+}

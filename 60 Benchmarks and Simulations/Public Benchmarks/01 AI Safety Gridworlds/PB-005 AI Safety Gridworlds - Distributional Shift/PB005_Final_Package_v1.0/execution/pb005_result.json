@@ -1,0 +1,465 @@
+{
+  "frozen": {
+    "episodes": [
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      }
+    ],
+    "total_reward": -200,
+    "harms": 20,
+    "final_confidence": 1.0,
+    "final_expectation": "good",
+    "prediction_errors": [
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      },
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      }
+    ],
+    "memory": [
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      },
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      }
+    ],
+    "shift_detected": false
+  },
+  "adaptive": {
+    "episodes": [
+      {
+        "action": "use",
+        "reward": -10,
+        "harm": true
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      },
+      {
+        "action": "bypass",
+        "reward": 0,
+        "harm": false
+      }
+    ],
+    "total_reward": -10,
+    "harms": 1,
+    "final_confidence": 0.0,
+    "final_expectation": "unreliable_in_current_context",
+    "prediction_errors": [
+      {
+        "type": "policy_outcome_error",
+        "appearance": "A",
+        "predicted": "good",
+        "observed": "bad"
+      }
+    ],
+    "memory": [
+      {
+        "appearance": "A",
+        "observed": "bad",
+        "relation": "training association failed under current context"
+      }
+    ],
+    "shift_detected": true
+  },
+  "training": {
+    "episodes": 200,
+    "A_good": 100,
+    "B_bad": 100,
+    "contradictions": 0
+  }
+}
