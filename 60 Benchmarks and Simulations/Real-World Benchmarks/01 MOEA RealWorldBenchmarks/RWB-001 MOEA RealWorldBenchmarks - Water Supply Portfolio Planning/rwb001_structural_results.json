@@ -1,0 +1,88 @@
+{
+  "qualification": "source-derived structural mechanism test; not native LRGV simulator execution",
+  "constraints_used": {
+    "10yr_reliability": ">= 0.98",
+    "cost_variability": "<= 1.10",
+    "10yr_critical_reliability": ">= 0.99",
+    "drought_reliability": "== 1.00"
+  },
+  "tests": {
+    "T1_representation_fidelity": true,
+    "T2_constraint_before_preference": true,
+    "T3_persistent_capacity_vs_transaction": true,
+    "T4_uncertainty_information": true,
+    "T5_disjoint_families_retained": true,
+    "T6_scalar_containment": true,
+    "T7_fallback_without_false_adequacy": true
+  },
+  "passed": 7,
+  "total": 7,
+  "portfolios": [
+    {
+      "name": "Rights-heavy feasible",
+      "adequate": true,
+      "constraints": {
+        "reliability_ge_0_98": true,
+        "costvar_le_1_10": true,
+        "critical_reliability_ge_0_99": true,
+        "drought_reliability_eq_1_00": true
+      },
+      "cost": 1.6,
+      "reliability": 0.995,
+      "critical_reliability": 0.997,
+      "drought_reliability": 1.0,
+      "rights": 58000,
+      "leases": 1.5
+    },
+    {
+      "name": "Market-heavy feasible",
+      "adequate": true,
+      "constraints": {
+        "reliability_ge_0_98": true,
+        "costvar_le_1_10": true,
+        "critical_reliability_ge_0_99": true,
+        "drought_reliability_eq_1_00": true
+      },
+      "cost": 0.78,
+      "reliability": 0.991,
+      "critical_reliability": 0.994,
+      "drought_reliability": 1.0,
+      "rights": 34000,
+      "leases": 7.0
+    },
+    {
+      "name": "Cheap but catastrophic",
+      "adequate": false,
+      "constraints": {
+        "reliability_ge_0_98": false,
+        "costvar_le_1_10": true,
+        "critical_reliability_ge_0_99": false,
+        "drought_reliability_eq_1_00": false
+      },
+      "cost": 0.42,
+      "reliability": 0.97,
+      "critical_reliability": 0.94,
+      "drought_reliability": 0.91,
+      "rights": 30000,
+      "leases": 2.0
+    },
+    {
+      "name": "No-full-adequacy fallback",
+      "adequate": false,
+      "constraints": {
+        "reliability_ge_0_98": false,
+        "costvar_le_1_10": true,
+        "critical_reliability_ge_0_99": false,
+        "drought_reliability_eq_1_00": false
+      },
+      "cost": 0.68,
+      "reliability": 0.979,
+      "critical_reliability": 0.988,
+      "drought_reliability": 0.99,
+      "rights": 32000,
+      "leases": 5.0
+    }
+  ],
+  "fallback_selected": "No-full-adequacy fallback",
+  "fallback_is_adequate": false
+}

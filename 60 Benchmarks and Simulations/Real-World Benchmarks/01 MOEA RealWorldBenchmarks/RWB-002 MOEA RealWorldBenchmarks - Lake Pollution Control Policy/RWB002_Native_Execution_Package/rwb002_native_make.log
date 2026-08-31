@@ -1,0 +1,145 @@
+make: Entering directory '/mnt/data/rwb_repo/RealWorldBenchmarks/native/LakeProblem'
+mkdir -p bin
+g++ -O3 -Wno-unused-local-typedefs -Isrc -I../shared -Isrc/boost_1_56_0 -o bin/lake src/main-lake.cpp ../shared/moeaframework.c 
+In file included from src/boost_1_56_0/boost/numeric/ublas/traits.hpp:21,
+                 from src/boost_1_56_0/boost/numeric/ublas/expression_types.hpp:15,
+                 from src/boost_1_56_0/boost/numeric/ublas/vector_expression.hpp:16,
+                 from src/boost_1_56_0/boost/numeric/ublas/matrix_expression.hpp:16,
+                 from src/boost_1_56_0/boost/numeric/ublas/io.hpp:19,
+                 from src/main-lake.cpp:34:
+src/boost_1_56_0/boost/numeric/ublas/detail/iterator.hpp:111:21: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  111 |         public std::iterator<IC, T> {
+      |                     ^~~~~~~~
+In file included from /usr/include/c++/14/bits/stl_iterator_base_funcs.h:66,
+                 from /usr/include/c++/14/string:47,
+                 from /usr/include/c++/14/bits/locale_classes.h:40,
+                 from /usr/include/c++/14/bits/ios_base.h:41,
+                 from /usr/include/c++/14/ios:44,
+                 from /usr/include/c++/14/istream:40,
+                 from /usr/include/c++/14/sstream:40,
+                 from src/main-lake.cpp:33:
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+src/boost_1_56_0/boost/numeric/ublas/detail/iterator.hpp:149:21: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  149 |         public std::iterator<IC, T> {
+      |                     ^~~~~~~~
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+src/boost_1_56_0/boost/numeric/ublas/detail/iterator.hpp:204:21: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  204 |         public std::iterator<IC, T> {
+      |                     ^~~~~~~~
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+In file included from src/boost_1_56_0/boost/serialization/strong_typedef.hpp:26,
+                 from src/boost_1_56_0/boost/serialization/collection_size_type.hpp:10,
+                 from src/boost_1_56_0/boost/numeric/ublas/storage.hpp:22,
+                 from src/boost_1_56_0/boost/numeric/ublas/vector.hpp:19,
+                 from src/boost_1_56_0/boost/numeric/ublas/matrix.hpp:16,
+                 from src/main-lake.cpp:35:
+src/boost_1_56_0/boost/operators.hpp:894:12: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  894 |   , boost::iterator<std::input_iterator_tag, V, D, P, R
+      |            ^~~~~~~~
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+src/boost_1_56_0/boost/operators.hpp:900:12: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  900 |   , boost::iterator<std::output_iterator_tag, void, void, void, void
+      |            ^~~~~~~~
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+src/boost_1_56_0/boost/operators.hpp:914:12: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  914 |   , boost::iterator<std::forward_iterator_tag, V, D, P, R
+      |            ^~~~~~~~
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+src/boost_1_56_0/boost/operators.hpp:924:12: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  924 |   , boost::iterator<std::bidirectional_iterator_tag, V, D, P, R
+      |            ^~~~~~~~
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+src/boost_1_56_0/boost/operators.hpp:934:12: warning: 'template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator' is deprecated [-Wdeprecated-declarations]
+  934 |   , boost::iterator<std::random_access_iterator_tag, V, D, P, R
+      |            ^~~~~~~~
+/usr/include/c++/14/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+In file included from src/boost_1_56_0/boost/optional/optional.hpp:51,
+                 from src/boost_1_56_0/boost/optional.hpp:15,
+                 from src/boost_1_56_0/boost/format/internals.hpp:20,
+                 from src/boost_1_56_0/boost/format.hpp:38,
+                 from src/boost_1_56_0/boost/math/policies/error_handling.hpp:31,
+                 from src/boost_1_56_0/boost/math/tools/toms748_solve.hpp:14,
+                 from src/boost_1_56_0/boost/math/tools/roots.hpp:32,
+                 from src/main-lake.cpp:38:
+src/boost_1_56_0/boost/utility/compare_pointees.hpp:36:32: warning: 'template<class _Arg1, class _Arg2, class _Result> struct std::binary_function' is deprecated [-Wdeprecated-declarations]
+   36 | struct equal_pointees_t : std::binary_function<OptionalPointee,OptionalPointee,bool>
+      |                                ^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/14/string:49:
+/usr/include/c++/14/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+src/boost_1_56_0/boost/utility/compare_pointees.hpp:59:31: warning: 'template<class _Arg1, class _Arg2, class _Result> struct std::binary_function' is deprecated [-Wdeprecated-declarations]
+   59 | struct less_pointees_t : std::binary_function<OptionalPointee,OptionalPointee,bool>
+      |                               ^~~~~~~~~~~~~~~
+/usr/include/c++/14/bits/stl_function.h:131:12: note: declared here
+  131 |     struct binary_function
+      |            ^~~~~~~~~~~~~~~
+In file included from src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp:28,
+                 from src/boost_1_56_0/boost/shared_ptr.hpp:17,
+                 from src/boost_1_56_0/boost/format/alt_sstream.hpp:21,
+                 from src/boost_1_56_0/boost/format/internals.hpp:23:
+src/boost_1_56_0/boost/smart_ptr/detail/shared_count.hpp:395:33: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  395 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/14/memory:78,
+                 from src/boost_1_56_0/boost/numeric/ublas/fwd.hpp:18,
+                 from src/boost_1_56_0/boost/numeric/ublas/detail/config.hpp:290,
+                 from src/boost_1_56_0/boost/numeric/ublas/exception.hpp:19,
+                 from src/boost_1_56_0/boost/numeric/ublas/expression_types.hpp:14:
+/usr/include/c++/14/bits/unique_ptr.h:59:28: note: declared here
+   59 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp:242:65: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  242 | template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+      |                                                                 ^~~~~~~~
+/usr/include/c++/14/bits/unique_ptr.h:59:28: note: declared here
+   59 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp:441:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  441 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+/usr/include/c++/14/bits/unique_ptr.h:59:28: note: declared here
+   59 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp:454:22: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  454 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+/usr/include/c++/14/bits/unique_ptr.h:59:28: note: declared here
+   59 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp:520:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  520 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+/usr/include/c++/14/bits/unique_ptr.h:59:28: note: declared here
+   59 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp:529:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  529 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+/usr/include/c++/14/bits/unique_ptr.h:59:28: note: declared here
+   59 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp: In member function 'boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)':
+src/boost_1_56_0/boost/smart_ptr/shared_ptr.hpp:531:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  531 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+/usr/include/c++/14/bits/unique_ptr.h:59:28: note: declared here
+   59 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+make: Leaving directory '/mnt/data/rwb_repo/RealWorldBenchmarks/native/LakeProblem'

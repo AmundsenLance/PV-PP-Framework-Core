@@ -1,0 +1,175 @@
+{
+  "seed": 20260830,
+  "n": 817,
+  "structured_n": 17,
+  "feasible_n": 23,
+  "infeasible_n": 794,
+  "pareto_feasible_sample_n": 6,
+  "best_benefit_feasible": {
+    "name": "randomwalk_249",
+    "maxP": 1.6489775443311383,
+    "benefit": 0.47499030485965205,
+    "inertia": 1.0,
+    "reliability": 0.9
+  },
+  "best_maxP_feasible": {
+    "name": "zero",
+    "maxP": 0.0612330359554769,
+    "benefit": 0.0,
+    "inertia": 1.0,
+    "reliability": 1.0
+  },
+  "highest_benefit_infeasible": {
+    "name": "constant_0.10",
+    "maxP": 2.289647934199874,
+    "benefit": 1.7347608882104941,
+    "inertia": 1.0,
+    "reliability": 0.06
+  },
+  "structured": [
+    {
+      "name": "zero",
+      "maxP": 0.0612330359554769,
+      "benefit": 0.0,
+      "inertia": 1.0,
+      "reliability": 1.0,
+      "feasible": true
+    },
+    {
+      "name": "constant_0.01",
+      "maxP": 0.09775909011733819,
+      "benefit": 0.17347608882104928,
+      "inertia": 1.0,
+      "reliability": 1.0,
+      "feasible": true
+    },
+    {
+      "name": "constant_0.02",
+      "maxP": 0.1505840249227915,
+      "benefit": 0.34695217764209857,
+      "inertia": 1.0,
+      "reliability": 1.0,
+      "feasible": true
+    },
+    {
+      "name": "constant_0.03",
+      "maxP": 2.0404029203995364,
+      "benefit": 0.5204282664631488,
+      "inertia": 1.0,
+      "reliability": 0.49,
+      "feasible": false
+    },
+    {
+      "name": "constant_0.04",
+      "maxP": 2.080702775013215,
+      "benefit": 0.6939043552841971,
+      "inertia": 1.0,
+      "reliability": 0.22,
+      "feasible": false
+    },
+    {
+      "name": "constant_0.05",
+      "maxP": 2.11694489343974,
+      "benefit": 0.8673804441052471,
+      "inertia": 1.0,
+      "reliability": 0.15,
+      "feasible": false
+    },
+    {
+      "name": "constant_0.06",
+      "maxP": 2.152479748346629,
+      "benefit": 1.0408565329262975,
+      "inertia": 1.0,
+      "reliability": 0.11,
+      "feasible": false
+    },
+    {
+      "name": "constant_0.07",
+      "maxP": 2.1878465509358525,
+      "benefit": 1.2143326217473456,
+      "inertia": 1.0,
+      "reliability": 0.09,
+      "feasible": false
+    },
+    {
+      "name": "constant_0.08",
+      "maxP": 2.2223653464607653,
+      "benefit": 1.3878087105683943,
+      "inertia": 1.0,
+      "reliability": 0.08,
+      "feasible": false
+    },
+    {
+      "name": "constant_0.09",
+      "maxP": 2.2562643228927053,
+      "benefit": 1.5612847993894454,
+      "inertia": 1.0,
+      "reliability": 0.07,
+      "feasible": false
+    },
+    {
+      "name": "constant_0.10",
+      "maxP": 2.289647934199874,
+      "benefit": 1.7347608882104941,
+      "inertia": 1.0,
+      "reliability": 0.06,
+      "feasible": false
+    },
+    {
+      "name": "ramp_up",
+      "maxP": 2.273405379081739,
+      "benefit": 0.5907007307409345,
+      "inertia": 1.0,
+      "reliability": 0.48,
+      "feasible": false
+    },
+    {
+      "name": "ramp_down",
+      "maxP": 2.1997646907656003,
+      "benefit": 1.144060157469579,
+      "inertia": 1.0,
+      "reliability": 0.06,
+      "feasible": false
+    },
+    {
+      "name": "step_low_high",
+      "maxP": 2.2184269799392315,
+      "benefit": 0.6248123266729362,
+      "inertia": 1.0,
+      "reliability": 0.56,
+      "feasible": false
+    },
+    {
+      "name": "step_high_low",
+      "maxP": 2.2223653464607653,
+      "benefit": 1.1099485615375602,
+      "inertia": 0.98989898989899,
+      "reliability": 0.08,
+      "feasible": false
+    },
+    {
+      "name": "alternating",
+      "maxP": 2.1342935644699677,
+      "benefit": 0.8621235929288521,
+      "inertia": 0.5050505050505051,
+      "reliability": 0.15,
+      "feasible": false
+    },
+    {
+      "name": "smooth_wave",
+      "maxP": 2.1939409403321606,
+      "benefit": 0.9001025489716413,
+      "inertia": 1.0,
+      "reliability": 0.09,
+      "feasible": false
+    }
+  ],
+  "pareto_names": [
+    "zero",
+    "constant_0.01",
+    "constant_0.02",
+    "randomwalk_092",
+    "randomwalk_219",
+    "randomwalk_249"
+  ]
+}

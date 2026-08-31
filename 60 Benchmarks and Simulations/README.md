@@ -77,6 +77,33 @@ includes:
 -   **MO-Gymnasium** --- testing of the frozen PV-PP decision
     architecture against the complete frozen MO-Gymnasium public
     multi-objective benchmark coverage set.
+-   **Real-World Benchmarks** --- a preselected three-case exploratory
+    program using independently developed applied models from the MOEA
+    Framework RealWorldBenchmarks repository. The cases cover Lower Rio
+    Grande Valley water-supply portfolio planning, lake-pollution
+    control policy, and general-aviation aircraft product-family design.
+
+The Real-World Benchmarks tranche extends the public benchmark program
+from standardized formal environments into source-locked applied
+decision models. Its governing question is whether the frozen PV-PP
+architecture can preserve externally defined objectives, constraints,
+uncertainty, persistent state, relational structure, and other
+decision-relevant distinctions without rewriting the source problem to
+fit the framework.
+
+The three real-world cases were selected before execution and the
+exploratory tranche was stopped after the third case by prior design.
+All three were executed without requiring a new canonical PV-PP operator
+or state primitive. The results provide constructive evidence concerning
+adequacy, multidimensional preservation, and conditional scalar
+reduction; they do not establish PV-PP as an optimal search, learning,
+control, or optimization algorithm.
+
+The real-world program also preserves benchmark-side implementation
+defects discovered during source-locked execution. Such defects are kept
+distinct from fixture or translation errors, search failures, policy
+failures, scalar-reduction failures, formalization gaps, and genuine
+PV-PP architecture failures.
 
 Unlike the smaller promoted benchmark projects above, these larger
 benchmark programs are maintained directly within this framework
@@ -111,3 +138,12 @@ Benchmarks** are authoritative within this framework repository for the
 materials deliberately published there. Their inclusion does not make
 benchmark results part of the canonical framework; they remain external
 tests and research evidence concerning the framework.
+
+The current public benchmark sequence therefore consists of three
+complementary stages: AI Safety Gridworlds for independently designed
+safety mechanisms and failure modes; MO-Gymnasium for standardized
+multi-objective environments and scalar-reduction boundaries; and
+Real-World Benchmarks for source-locked applied decision models. This
+sequence should not be read as a claim of universal validation. It is a
+progressively broader evidence record maintained separately from
+canonical framework authority.
