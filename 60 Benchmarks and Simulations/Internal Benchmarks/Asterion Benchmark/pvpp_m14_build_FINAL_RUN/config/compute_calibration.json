@@ -1,0 +1,5320 @@
+{
+  "a_pass": {
+    "1": 1.0,
+    "2": 1.0,
+    "4": 1.0
+  },
+  "b_pass": {
+    "1": 1.0,
+    "2": 1.0,
+    "4": 1.0
+  },
+  "details": {
+    "1": {
+      "a": [
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00022603099978368846,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00012735200016322779,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011734600002455409,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001162459998340637,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0006192040000314591,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011433300005592173,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001185679998343403,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011497400009830017,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010646999999153195,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010811299989654799,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00022081299994169967,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00013327100032256567,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00014117299997451482,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011305999987598625,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0004619759997694928,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011573499978112523,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0002634570000736858,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00014033099978405517,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011684699984471081,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010879399997065775,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010378599972682423,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00022833399998489767,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011131800010844017,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010800299969560001,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011477299995021895,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010422699961054605,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00015729800043118303,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011101700010840432,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.000152909999997064,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001485740003772662,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011177800024597673,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011626500008787843,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010625000004438334,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010707100000217906,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010816300027727266,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011248999999224907,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00013136799998392235,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010930500002359622,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00013435200025924132,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001120489996537799,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        }
+      ],
+      "b": [
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00015246999964801944,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011536400006662006,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001177180001832312,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00015302100018743658,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00012396700003591832,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00014011099983690656,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010842299980140524,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011109700017186697,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010514899986446835,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.000639292999949248,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0002085149999402347,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011512299988680752,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00016860400000950904,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010789299994939938,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00013249899984657532,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011241899983360781,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011327099991831346,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011077599992859177,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001076420003300882,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001458499996260798,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00024471799997627386,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.000112759999865375,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001293450000048324,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.000138868999783881,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010346599992772099,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010525800007599173,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010846299983313656,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0008450990003439074,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00024722299986024154,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011320100020384416,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010636100023475592,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.000134211999920808,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010498899973754305,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010401700001239078,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.000103436000244983,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0008502020000378252,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011098699997091899,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010612000005494338,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011052699983338243,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011001600023519131,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        }
+      ]
+    },
+    "2": {
+      "a": [
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00012862300036431407,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011211899982299656,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011402100017221528,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010920500017164159,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010572900009719888,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010874400004468043,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001974370002244541,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010861300006581587,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010603999999148073,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00013833899993187515,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010651999991750927,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010634000000209198,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00012503800007834798,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010875399993892643,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010914399990724633,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010628100017129327,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010439700008646469,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010386700023445883,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010664100000212784,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010692099976949976,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010361600016040029,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010113200005434919,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010858399991775514,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010775300006571342,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010077199976876727,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011752800037356792,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010753199967439286,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001260000003640016,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010175299985348829,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011714699985532206,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00027692699995895964,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011177899978065398,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010388600003352622,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001081739997061959,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00013526399970942293,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010914399990724633,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 9.985999986383831e-05,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010640999971656129,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010736099966379697,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010582999993857811,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        }
+      ],
+      "b": [
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011065700027756975,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001333909999630123,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010918499992840225,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010943400002361159,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010378600018157158,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00020013199991808506,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010900400002356037,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011062700014008442,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010356600023442297,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010558899975876557,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00012953500026924303,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011820800000350573,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010255400002279202,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00016888499976630555,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011087700022471836,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011046600002373452,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001264799998352828,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010388700002295082,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010321599984308705,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010319500006517046,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010238400000162073,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 9.900900022330461e-05,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001040570000441221,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010276400007569464,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010223399976894143,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010197400024480885,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010061200009658933,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010497799985387246,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 9.751700008564512e-05,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010033099988504546,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011675599989757757,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.000110967000182427,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001289649999307585,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011967000000367989,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001049980000971118,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010604899989630212,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00012745299954985967,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001008920003187086,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010241500012853066,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001065500000549946,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        }
+      ]
+    },
+    "4": {
+      "a": [
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011090699990745634,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010912500010817894,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010420699982205406,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0015900160001365293,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001144530001511157,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001128199996855983,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001083229999494506,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011148800012961146,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010678100034056115,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001540620000923809,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00013350099970921292,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.000167632999819034,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011550399995030602,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011186799974893802,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011244000006627175,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00012330599975030054,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010621999990689801,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010816299982252531,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0001078730001609074,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011027600021407125,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010332500005461043,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010601999974824139,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.004601212999659765,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011836900011985563,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010855400023501716,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011761699988710461,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010712099992815638,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010712100038290373,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010261499983243993,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.001109883000026457,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00044083400007366436,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011877899987666751,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00044702300010612817,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00014110300026004552,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00012688100014202064,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011148800012961146,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00010649100022419589,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.0003832679999504762,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00011456199990789173,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "A",
+          "elapsed_seconds": 0.00014271500003815163,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        }
+      ],
+      "b": [
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010707100000217906,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010396700008641346,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010321599984308705,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00014601000020775246,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010842299980140524,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001360350001959887,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010688100019251578,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010688100019251578,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001903869997477159,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010637100012900191,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0013408509998953377,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011853900014102692,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010610999970595003,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010474799955773051,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010946499969577417,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001168559997495322,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010107199977937853,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010164300010728766,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010296499976902851,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010591899990686215,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00012264400038475287,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001222739997501776,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001556449997224263,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011656599963316694,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00013160799971956294,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010502800023459713,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010488799989616382,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010845299993889057,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00012080200031050481,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00012888399987787125,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001315079998676083,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011020599959010724,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011596500007726718,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011124799993922352,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011115699999209028,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011493300007714424,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-0-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00010254400012854603,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 0,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-3-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.00011591500015128986,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 3,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-4-07-reserve_s2",
+            "actor": "M",
+            "kind": "reserve_s2",
+            "params": {
+              "capacity": 60,
+              "cash_k": 20
+            },
+            "proposal_slot": null,
+            "target": "S2"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.003158269999858021,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 4,
+          "role": "M",
+          "transition_evaluations": 56
+        },
+        {
+          "action": {
+            "action_id": "M-5-05-s1_assist",
+            "actor": "M",
+            "kind": "s1_assist",
+            "params": {
+              "cash_k": 40,
+              "recovery_pp": 25
+            },
+            "proposal_slot": null,
+            "target": "S1"
+          },
+          "budget_exhausted": false,
+          "candidate_count": 14,
+          "controller": "B-B0",
+          "elapsed_seconds": 0.0001461100000597071,
+          "evaluated_count": 14,
+          "notes": [],
+          "period": 5,
+          "role": "M",
+          "transition_evaluations": 56
+        }
+      ]
+    }
+  },
+  "selected": {
+    "multiplier": 1,
+    "passing_fraction_a": 1.0,
+    "passing_fraction_b": 1.0,
+    "projection_paths": 256,
+    "transition_evaluation_ceiling": 10000,
+    "wall_clock_seconds": 2.0
+  }
+}

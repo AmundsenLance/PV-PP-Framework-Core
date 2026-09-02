@@ -1,0 +1,33 @@
+{
+  "candidate_n": [
+    100,
+    250,
+    500,
+    1000
+  ],
+  "max_abs_difference_by_n": {
+    "100": 0.07400000000000001,
+    "1000": 0.0,
+    "250": 0.03500000000000003,
+    "500": 0.051000000000000045
+  },
+  "reference_frequencies": {
+    "line=10": 0.232,
+    "line=15": 0.527,
+    "line=20": 0.241,
+    "message=exact": 0.426,
+    "message=optimistic": 0.243,
+    "message=temporary": 0.331,
+    "onset=3": 0.296,
+    "onset=4": 0.347,
+    "onset=5": 0.357,
+    "quality=15": 0.229,
+    "quality=20": 0.512,
+    "quality=25": 0.259
+  },
+  "seed_file": "config/master_seeds_1000.json",
+  "seed_file_sha256": "45e101bd523c3bcdb50bfcc83c0fbaf083e2d105e82897c9987855cee1aae3b4",
+  "selected_controller_free_ensemble_n": 1000,
+  "status": "controller-free ensemble calibration complete; comparative controller execution not performed",
+  "tolerance_absolute_probability": 0.03
+}

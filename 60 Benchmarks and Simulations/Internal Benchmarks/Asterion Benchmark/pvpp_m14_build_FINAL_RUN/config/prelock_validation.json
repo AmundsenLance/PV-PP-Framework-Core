@@ -1,0 +1,293 @@
+{
+  "milestones": {
+    "controller_free_trace_does_not_auto_terminate": true,
+    "customer_termination_choice_verified": true,
+    "r_emergency_seen": true,
+    "required_m_action_families_reachable": true,
+    "s1_deterioration_seen": true,
+    "s2_external_encumbrance_seen": true
+  },
+  "mode": "CALIBRATION_CONFORMANCE_ONLY",
+  "oracle_expansion": {
+    "action_families": [
+      "enhanced_inspect",
+      "full_containment",
+      "inspect",
+      "no_action",
+      "order_s1",
+      "request_finance",
+      "request_renegotiation",
+      "reserve_s2",
+      "routine_produce",
+      "s1_assist",
+      "ship",
+      "start_s2_qualification"
+    ],
+    "contains_joint_production_shipment": true,
+    "default_grammar_complete": true,
+    "default_incomplete_family_count": 0,
+    "empty_tree_o1_classification": "PROVEN_INFEASIBLE",
+    "empty_tree_o2_classification": "PROVEN_INFEASIBLE",
+    "initial_feasible_plan_count": 5279,
+    "o1_budget": 250000,
+    "o1_horizon": 8,
+    "o2_budget": 1000000,
+    "o2_horizon_cap": 12
+  },
+  "primary_comparative_execution": false,
+  "scenario_period_rows": [
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 0,
+      "ledger_entries": 8,
+      "m_cash_k": 480.0,
+      "next_period": 1,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 100,
+      "s1_quality": 100,
+      "s2_external_encumbrance": 0.0
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 1,
+      "ledger_entries": 16,
+      "m_cash_k": 540.0,
+      "next_period": 2,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 100,
+      "s1_quality": 100,
+      "s2_external_encumbrance": 0.0
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 2,
+      "ledger_entries": 24,
+      "m_cash_k": 600.0,
+      "next_period": 3,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 100,
+      "s1_quality": 100,
+      "s2_external_encumbrance": 0.0
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 3,
+      "ledger_entries": 34,
+      "m_cash_k": 670.0,
+      "next_period": 4,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 85,
+      "s1_quality": 80,
+      "s2_external_encumbrance": 0.0
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 4,
+      "ledger_entries": 44,
+      "m_cash_k": 756.0,
+      "next_period": 5,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 77,
+      "s1_quality": 70,
+      "s2_external_encumbrance": 0.0
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 5,
+      "ledger_entries": 54,
+      "m_cash_k": 858.0,
+      "next_period": 6,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 69,
+      "s1_quality": 60,
+      "s2_external_encumbrance": 0.0
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 6,
+      "ledger_entries": 65,
+      "m_cash_k": 976.0,
+      "next_period": 7,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 61,
+      "s1_quality": 50,
+      "s2_external_encumbrance": 0.0
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 7,
+      "ledger_entries": 76,
+      "m_cash_k": 1110.0,
+      "next_period": 8,
+      "r_emergency_active": false,
+      "rejected": [],
+      "s1_line": 53,
+      "s1_quality": 40,
+      "s2_external_encumbrance": 30
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 8,
+      "ledger_entries": 87,
+      "m_cash_k": 1260.0,
+      "next_period": 9,
+      "r_emergency_active": true,
+      "rejected": [],
+      "s1_line": 45,
+      "s1_quality": 30,
+      "s2_external_encumbrance": 30
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 9,
+      "ledger_entries": 97,
+      "m_cash_k": 1426.0,
+      "next_period": 10,
+      "r_emergency_active": true,
+      "rejected": [],
+      "s1_line": 37,
+      "s1_quality": 20,
+      "s2_external_encumbrance": 30
+    },
+    {
+      "customer_reserve": 120.0,
+      "customer_terminated": false,
+      "decision_period": 10,
+      "ledger_entries": 107,
+      "m_cash_k": 1608.0,
+      "next_period": 11,
+      "r_emergency_active": true,
+      "rejected": [],
+      "s1_line": 29,
+      "s1_quality": 10,
+      "s2_external_encumbrance": 30
+    },
+    {
+      "customer_reserve": 60.0,
+      "customer_terminated": false,
+      "decision_period": 11,
+      "ledger_entries": 116,
+      "m_cash_k": 1486.0,
+      "next_period": 12,
+      "r_emergency_active": true,
+      "rejected": [
+        {
+          "action": "P11-prod",
+          "reason": "BOARD_SHORTAGE"
+        }
+      ],
+      "s1_line": 21,
+      "s1_quality": 0,
+      "s2_external_encumbrance": 30
+    },
+    {
+      "customer_reserve": 0,
+      "customer_terminated": false,
+      "decision_period": 12,
+      "ledger_entries": 126,
+      "m_cash_k": 1520.0,
+      "next_period": 13,
+      "r_emergency_active": true,
+      "rejected": [
+        {
+          "action": "P12-prod",
+          "reason": "BOARD_SHORTAGE"
+        }
+      ],
+      "s1_line": 13,
+      "s1_quality": 0,
+      "s2_external_encumbrance": 0
+    },
+    {
+      "customer_reserve": 0,
+      "customer_terminated": false,
+      "decision_period": 13,
+      "ledger_entries": 135,
+      "m_cash_k": 1430.0,
+      "next_period": 14,
+      "r_emergency_active": true,
+      "rejected": [
+        {
+          "action": "P13-prod",
+          "reason": "BOARD_SHORTAGE"
+        }
+      ],
+      "s1_line": 5,
+      "s1_quality": 0,
+      "s2_external_encumbrance": 0
+    },
+    {
+      "customer_reserve": 0,
+      "customer_terminated": false,
+      "decision_period": 14,
+      "ledger_entries": 144,
+      "m_cash_k": 1350.0,
+      "next_period": 15,
+      "r_emergency_active": true,
+      "rejected": [
+        {
+          "action": "P14-prod",
+          "reason": "BOARD_SHORTAGE"
+        }
+      ],
+      "s1_line": 0,
+      "s1_quality": 0,
+      "s2_external_encumbrance": 0
+    },
+    {
+      "customer_reserve": 0,
+      "customer_terminated": false,
+      "decision_period": 15,
+      "ledger_entries": 153,
+      "m_cash_k": 1270.0,
+      "next_period": 16,
+      "r_emergency_active": true,
+      "rejected": [
+        {
+          "action": "P15-prod",
+          "reason": "BOARD_SHORTAGE"
+        }
+      ],
+      "s1_line": 0,
+      "s1_quality": 0,
+      "s2_external_encumbrance": 0
+    },
+    {
+      "customer_reserve": 0,
+      "customer_terminated": false,
+      "decision_period": 16,
+      "ledger_entries": 162,
+      "m_cash_k": 1190.0,
+      "next_period": 17,
+      "r_emergency_active": true,
+      "rejected": [
+        {
+          "action": "P16-prod",
+          "reason": "BOARD_SHORTAGE"
+        }
+      ],
+      "s1_line": 0,
+      "s1_quality": 0,
+      "s2_external_encumbrance": 0
+    }
+  ],
+  "scenario_seed": 777,
+  "scenario_terminal_period": null
+}

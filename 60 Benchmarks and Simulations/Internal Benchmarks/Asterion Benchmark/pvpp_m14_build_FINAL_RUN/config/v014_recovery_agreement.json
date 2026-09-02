@@ -1,0 +1,12 @@
+{
+  "version": "0.14",
+  "status": "PROSPECTIVE_SEMANTIC_CLOSURE",
+  "purpose": "Close the previously unreachable customer recovery-agreement corridor already referenced by the frozen customer termination rule.",
+  "thresholds": {"projected_next_min": 70, "projected_following_min": 80},
+  "duration_periods": 2,
+  "effects": {"erases_strikes": false, "adds_reserve": false, "adds_pp": false, "adds_cash": false, "guarantees_delivery": false},
+  "proposal": {"proposer": "M", "acceptor": "C", "slot": "second_external_proposal_when_needed", "same_semantics_all_regimes": true},
+  "projection_basis": "M PRE-visible state plus frozen public production/supply/finance model; no oracle future draws",
+  "expiry": "protects customer decisions in acceptance period and next period only",
+  "anti_tuning": "No A/B/C controller objective weights, Sigma rules, stochastic parameters, or world resource endowments changed."
+}

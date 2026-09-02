@@ -1,0 +1,121 @@
+{
+  "suite_status": "PASS",
+  "pytest_stdout": "........................................................................ [ 56%]\n........................................................                 [100%]\n128 passed in 2.05s",
+  "primary_comparative_execution": "AUTHORIZED_NOT_STARTED",
+  "test_count": 128,
+  "oracle_semantics": {
+    "budget_exhaustion": "UNDETERMINED",
+    "finite_tree_exhaustion_without_recovery": "PROVEN_INFEASIBLE",
+    "recovery_path_found": "RECOVERY_FOUND",
+    "o1_horizon": 8,
+    "o1_eval_ceiling": 250000,
+    "o2_eval_ceiling": 1000000,
+    "proof_rule": "PROVEN_INFEASIBLE only after exhaustive finite-grammar search or validated completeness certificate"
+  },
+  "primary_role_action_surface": {
+    "M": [
+      "routine_produce",
+      "ship",
+      "inspect",
+      "enhanced_inspect",
+      "full_containment",
+      "s1_assist",
+      "start_s2_qualification",
+      "reserve_s2",
+      "shortcut_rework",
+      "full_rework",
+      "request_finance",
+      "request_renegotiation",
+      "m_recovery_agreement",
+      "order_s1",
+      "order_s2",
+      "cancel",
+      "m_conserve",
+      "m_ration",
+      "m_split_source",
+      "m_book_transport",
+      "m_amend_lender",
+      "m_recover_pp",
+      "m_pause",
+      "m_breach_controlled",
+      "m_shut_line",
+      "propose",
+      "no_action"
+    ],
+    "S1": [
+      "ship",
+      "s1_recover",
+      "s1_accept_assist",
+      "s1_contain",
+      "accept",
+      "reject",
+      "no_action"
+    ],
+    "S2": [
+      "s2_accept_qualification",
+      "s2_qualification_stage",
+      "s2_accept_reservation",
+      "ship",
+      "accept",
+      "reject",
+      "no_action"
+    ],
+    "C": [
+      "c_accept_renegotiation",
+      "c_reject_renegotiation",
+      "c_threaten",
+      "c_terminate",
+      "c_continue",
+      "accept",
+      "reject",
+      "propose",
+      "no_action"
+    ],
+    "L": [
+      "l_approve_draw",
+      "l_reject_draw",
+      "l_offer_amend",
+      "l_reject_amend",
+      "l_restrict",
+      "accept",
+      "reject",
+      "propose",
+      "no_action"
+    ],
+    "T": [
+      "t_accept_booking",
+      "t_reject_booking",
+      "t_execute",
+      "accept",
+      "reject",
+      "propose",
+      "no_action"
+    ],
+    "R": [
+      "accept",
+      "reject",
+      "no_action"
+    ]
+  },
+  "v013_narrowed_non_m_families": {
+    "S1": {
+      "s1_produce": "embedded in S1 shipment; no elective primary-horizon stock-build action",
+      "s1_renegotiate": "narrowed to M-ORDER-S1 plus S1 accept/reject one-period supplier contract",
+      "s1_status_message": "world information event under frozen strategic-message process",
+      "s1_exit": "automatic world terminal transition",
+      "s1_contain": "retained independent action"
+    },
+    "S2": {
+      "s2_quote": "information channel, not primary controller action",
+      "s2_tool": "excluded from primary v1.0; S2 line ceiling fixed at 70",
+      "s2_produce": "embedded in S2 shipment; no elective primary-horizon stock-build action",
+      "s2_external_reserve": "exogenous frozen P6/P7 opportunity process",
+      "s2_exit": "automatic world terminal transition"
+    }
+  },
+  "notes": [
+    "Same-period production precedes outbound shipment in execution ordering.",
+    "Temporary PP encumbrance reduces accessibility and is released at period close; it does not destroy underlying PP.",
+    "Oracle failure under a search ceiling is not treated as proof of infeasibility."
+  ]
+}

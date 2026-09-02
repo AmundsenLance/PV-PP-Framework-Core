@@ -1,0 +1,28 @@
+{
+  "record_version": "1.2",
+  "status": "AUTHORIZED_NOT_STARTED",
+  "implementation": "PVPP_V2_M9",
+  "date": "2026-08-31",
+  "seed_prefix": "config/master_seeds_1000.json",
+  "seed_count": 1000,
+  "regimes": [
+    "A",
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "C"
+  ],
+  "conformance": "102/102 PASS",
+  "v014_regressions": "6/6 PASS",
+  "production_readiness": "40/40 PASS",
+  "root_surface_parity": "100% A/B0",
+  "primary_outcomes_generated_during_readiness": false,
+  "m8_outcome_firewall": "M8 retained as diagnostic only; no outcome magnitude used to tune controller objectives, Sigma, stochastic parameters, or resources.",
+  "authorization": true,
+  "milestone": "M11",
+  "d7_quality_pipeline": "IMPLEMENTED",
+  "d8_ordinary_escaped_defect_field_failure_probability": 0.2,
+  "m11_q1_q10": "PASS"
+}

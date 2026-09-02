@@ -1,0 +1,35 @@
+{
+  "manifest": "PVPP_Freeze_Manifest_v1.docx",
+  "primary_comparative_execution": false,
+  "planning_horizon_transitions": 4,
+  "compute_target": {
+    "transition_evaluations": 10000,
+    "wall_clock_seconds": 2.0,
+    "projection_paths": 256,
+    "pass_fraction": 0.95,
+    "multipliers": [1, 2, 4]
+  },
+  "seed_namespace": "PVPP-ASTERION-PRIMARY-SEEDS-v1",
+  "seed_count": 1000,
+  "ensemble_candidates": [100, 250, 500, 1000],
+  "inspection": {
+    "default_fraction": 0.20,
+    "enhanced_fraction": 0.50,
+    "sensitivity": 0.90,
+    "specificity": 0.99
+  },
+  "qualification": {
+    "sample_size": 20,
+    "normal_stages": 4,
+    "emergency_stages": 2,
+    "critical_fail_limit": 0,
+    "noncritical_detected_fail_threshold": 2,
+    "emergency_cap": 40
+  },
+  "s2_opportunity": {
+    "appears_period": 6,
+    "deadline_end_period": 7,
+    "encumbered_capacity": 30,
+    "encumbrance_periods": 5
+  }
+}

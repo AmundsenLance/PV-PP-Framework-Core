@@ -1,102 +1,160 @@
-# PV-PP Real-World Benchmarks
+# PV-PP Benchmark Program
 
-This directory is the top-level home for real-world benchmark programs
-conducted against the Productive Value-Productive Power (PV-PP)
+This directory is the top-level home for benchmark and simulation
+evidence developed for the Productive Value-Productive Power (PV-PP)
 framework.
 
-Real-world benchmarks extend the PV-PP testing program beyond
-constructed internal simulations and standardized formal benchmark
-suites. The purpose is to test the frozen framework against
-independently developed applied decision models whose variables,
-constraints, objectives, uncertainty, dynamics, and consequence
-structures were defined outside the PV-PP project.
+The benchmark program tests the framework at several levels, ranging
+from internally constructed stress environments to standardized public
+benchmark suites and independently developed applied decision models.
+These categories serve different evidentiary purposes and should not be
+treated as interchangeable.
 
-## Purpose
+PV-PP is evaluated as a **decision architecture**. Benchmark results are
+evidence about the behavior, representational capacity, limits, and
+failure modes of the frozen framework under specified test conditions.
+They do not by themselves redefine canonical PV-PP architecture.
 
-The governing question for this category is:
+## Directory Structure
 
-> Can the frozen PV-PP architecture faithfully represent externally
-> defined applied decision problems while preserving the distinctions
-> the source problem itself treats as decision-relevant?
+### Internal Benchmarks
 
-PV-PP is evaluated here as a **decision architecture**, not as a
-replacement optimization, search, learning, control, or domain-specific
-modeling algorithm.
+`Internal Benchmarks` contains constructed benchmark environments
+developed specifically to stress important portions of the PV-PP
+architecture.
 
-A real-world benchmark is not considered successful merely because its
-terminology can be translated into PV-PP language. The source problem's
-actual structure must survive the mapping and execution.
+These benchmarks can exercise combinations of features that may be
+difficult to isolate in existing external environments, including
+heterogeneous agents, persistent productive capacity, productive-value
+exchange, resource dependencies, contractual commitments, incomplete
+information, recovery pathways, irreversible losses, and dynamic
+multi-period interaction.
 
-## Program Rules
+The principal current internal benchmark is the **Asterion Benchmark
+V2**, a stochastic multi-agent productive-system benchmark. Its public
+record includes the benchmark-definition documents, the frozen final M14
+execution package, banking and validation records, and the benchmark
+white paper.
 
-Real-world benchmark programs in this directory should:
+Internal benchmarks are designed tests. Their evidentiary value
+therefore depends heavily on prospective specification, frozen
+architecture, controlled comparator construction, common-random-number
+execution where applicable, preservation of diagnostic failures, and
+transparent validation.
 
--   use independently developed applied models or source-locked external
-    problem definitions;
--   establish the benchmark question and selection criteria before
-    results are known;
--   preserve source objectives, constraints, uncertainty, state, and
-    decision structure;
--   hold the canonical PV-PP architecture fixed during execution;
--   avoid adding benchmark-specific operators merely to rescue a failed
-    test;
--   distinguish benchmark defects, fixture or translation errors, search
-    failures, policy failures, formalization gaps, scalar-reduction
-    failures, and architecture failures; and
--   preserve unfavorable results, corrections, qualifications, and
-    unresolved boundaries in the public record.
+### Public Benchmarks
 
-Benchmark objectives are not automatically PV-PP domains, and benchmark
-results do not become canonical framework architecture merely because
-they are publicly reported here.
+`Public Benchmarks` contains testing against standardized benchmark
+environments developed outside the PV-PP project.
 
-## Current Real-World Benchmark Programs
+The current public benchmark programs include:
 
-### 01 MOEA RealWorldBenchmarks
+-   **AI Safety Gridworlds**, used to test behavior against
+    independently designed safety mechanisms and failure modes; and
+-   **MO-Gymnasium**, used for systematic testing across standardized
+    multi-objective environments and for examining scalar-reduction
+    boundaries.
 
-The first completed real-world benchmark program uses applied problems
-from the MOEA Framework **RealWorldBenchmarks** repository.
+Because these environments were not designed for PV-PP, they provide an
+important external check on whether the framework can operate coherently
+outside internally constructed test worlds.
 
-The exploratory tranche preselected three materially different cases:
+### Real-World Benchmarks
+
+`Real-World Benchmarks` contains source-locked testing against
+independently developed applied decision models.
+
+The first completed program uses the MOEA Framework
+**RealWorldBenchmarks** collection and includes:
 
 -   Lower Rio Grande Valley water-supply portfolio planning;
 -   lake-pollution control policy; and
 -   general-aviation aircraft product-family design.
 
-The three-case tranche is complete and frozen. Detailed selection
-records, source reconstruction, execution artifacts, benchmark defects,
-case results, synthesis, and interpretation limits are maintained inside
-the `01 MOEA RealWorldBenchmarks` directory.
+These tests ask whether the frozen PV-PP architecture can represent and
+execute externally defined applied problems while preserving the
+variables, constraints, objectives, uncertainty, dynamics, and
+consequence structures treated as decision-relevant by the source model.
 
-Future real-world benchmark families may be added alongside this program
-when they test a genuinely different structural capability or provide a
-materially different external evidence source.
+## Benchmark Progression
 
-## Relationship to the Public Benchmark Program
+The benchmark program has developed through increasingly demanding forms
+of evidence:
 
-Real-World Benchmarks is one branch of the larger PV-PP public benchmark
-record.
-
-The current progression is:
-
-1.  **AI Safety Gridworlds** --- independently designed safety
-    mechanisms and failure modes.
-2.  **MO-Gymnasium** --- standardized multi-objective environments and
-    scalar-reduction boundaries.
-3.  **Real-World Benchmarks** --- independently developed applied
+1.  **Internal simulations and architecture regressions** --- controlled
+    tests of individual framework mechanisms and interactions.
+2.  **AI Safety Gridworlds** --- externally designed safety mechanisms
+    and failure modes.
+3.  **MO-Gymnasium** --- standardized multi-objective benchmark
+    environments.
+4.  **Real-World Benchmarks** --- independently developed applied
     decision models.
+5.  **Asterion Benchmark V2** --- an integrated stochastic multi-agent
+    productive-system stress benchmark exercising a large portion of the
+    frozen PV-PP architecture simultaneously.
 
-The real-world category is intentionally broader than the current MOEA
-tranche. The MOEA RealWorldBenchmarks program is the first source family
-placed here; it is not the definition of the category itself.
+This progression should not be interpreted as a single ranking of
+benchmark importance. Each category answers a different methodological
+question.
 
-## Authority Boundary
+## General Benchmark Rules
 
-Materials in this directory are external tests and research evidence
-concerning the PV-PP framework.
+Across the benchmark program, the governing research discipline is to:
 
-They do not define canonical PV-PP architecture.
+-   define the benchmark question and relevant test conditions before
+    interpreting outcomes;
+-   distinguish canonical framework architecture from benchmark-specific
+    fixtures and environment rules;
+-   hold the tested PV-PP architecture fixed during a production run;
+-   avoid adding benchmark-specific operators merely to rescue an
+    unfavorable result;
+-   preserve common random numbers or other controlled comparison
+    structures where the benchmark permits them;
+-   distinguish architecture failures from benchmark defects,
+    implementation defects, search failures, fixture errors, translation
+    errors, comparator failures, and formalization gaps;
+-   preserve unfavorable results, superseded builds, material
+    corrections, qualifications, and unresolved boundaries when they are
+    necessary to understand the evidentiary lineage; and
+-   avoid converting heterogeneous benchmark outcomes into a universal
+    PV-PP score unless such a reduction is independently justified.
 
-Where a benchmark result identifies a possible architectural issue, that
-result must pass through the framework's normal controlled research and
-promotion process before it can affect canonical authority.
+Not every developmental artifact belongs in the public repository.
+Public benchmark directories are curated research records containing the
+materials necessary to understand, reproduce, audit, and interpret the
+relevant benchmark. Complete internal working archives may contain
+additional intermediate files.
+
+## Interpretation Boundary
+
+Successful benchmark performance does not establish that PV-PP is
+universally superior to scalar optimization, multi-objective
+optimization, model-predictive control, reinforcement learning, or any
+other decision architecture.
+
+Likewise, failure in a particular benchmark does not automatically
+establish a canonical architectural failure.
+
+The proper interpretation is benchmark-relative: what the frozen
+architecture represented, selected, preserved, or failed to preserve
+under the specified environment, information conditions, comparator
+definitions, and execution rules.
+
+Where benchmark evidence identifies a possible architectural issue, that
+issue must pass through the framework's normal controlled research and
+promotion process before it can alter canonical PV-PP authority.
+
+## Reproducibility and Historical Record
+
+Individual benchmark directories contain their own README files
+describing the benchmark-specific structure, authority boundary,
+execution artifacts, validation records, and interpretation limits.
+
+Where a benchmark has undergone material correction or supersession, the
+public record should retain enough lineage to explain the change without
+reproducing the entire internal development workspace.
+
+The objective of this repository is therefore not to publish every file
+created during benchmark development. It is to maintain a clear,
+auditable, and reproducible record of the evidence produced by the PV-PP
+benchmark program.

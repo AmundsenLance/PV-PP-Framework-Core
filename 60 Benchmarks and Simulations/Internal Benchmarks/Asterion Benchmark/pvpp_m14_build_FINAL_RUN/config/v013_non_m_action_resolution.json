@@ -1,0 +1,31 @@
+{
+  "version": "v0.13",
+  "status": "CLOSED_PROSPECTIVE_PRIMARY_SURFACE",
+  "outcome_firewall": "No M6 comparative outcome values consulted in choosing these closures.",
+  "authority_basis": [
+    "Actions_Events_v04: source qualitative action catalog",
+    "PVPP_World_State_Spec_v0.2: S1 containment/exit thresholds, S2 exit threshold, production capability, opportunity process",
+    "Action_Parameterization_v010: explicitly permits later narrowing of semantically incomplete schemas",
+    "Counterpart_Contract_v012: one-period supplier-order contract semantics"
+  ],
+  "s1": {
+    "S1_PRODUCE": "NARROWED_EMBEDDED_IN_SHIP",
+    "S1_RENEGOTIATE": "NARROWED_TO_M_ORDER_S1_PLUS_S1_RESPONSE",
+    "S1_STATUS_MSG": "RECLASSIFIED_WORLD_INFORMATION_EVENT",
+    "S1_CONTAIN": "RETAINED_EXECUTABLE; trigger own observed quality <35; blocks shipment; release after recovery to >=35",
+    "S1_EXIT": "RECLASSIFIED_AUTOMATIC_WORLD_TRANSITION; cash<=0 and line<25 two consecutive periods OR forced containment/closure 3 periods"
+  },
+  "s2": {
+    "S2_QUOTE": "RECLASSIFIED_INFORMATION_CHANNEL",
+    "S2_TOOL": "EXCLUDED_PRIMARY_V1; no line scale-up; primary line ceiling fixed at 70",
+    "S2_PRODUCE": "NARROWED_EMBEDDED_IN_SHIP",
+    "S2_EXTERNAL_RESERVE": "RECLASSIFIED_EXOGENOUS_P6_P7_EVENT",
+    "S2_EXIT": "RECLASSIFIED_AUTOMATIC_WORLD_TRANSITION; cash<30 and no active S2 contract"
+  },
+  "tests": {
+    "pytest": "96/96 PASS",
+    "new_v013_regressions": 7
+  },
+  "readiness": "40/40 fixtures PASS; A/B0 root parity 100%; no primary outcomes generated",
+  "execution_authorization": true
+}

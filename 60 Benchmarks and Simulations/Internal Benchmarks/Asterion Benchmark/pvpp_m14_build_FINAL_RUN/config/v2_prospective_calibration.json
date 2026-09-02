@@ -1,0 +1,23 @@
+{
+  "version": "V2 prospective calibration 2026-08-31",
+  "status": "approved before any V2 comparative execution",
+  "transport": {
+    "scope": "supplier board shipments to M",
+    "reliability_by_congestion": {"LOW": 0.96, "MEDIUM": 0.90, "HIGH": 0.82},
+    "failure_semantics": "exactly one-period delivery delay",
+    "shipment_destroyed": false,
+    "reroll_delayed_shipment": false,
+    "payment_timing": "receipt"
+  },
+  "s2_quality": {
+    "sample_size_per_stage": 20,
+    "defect_probability": "clamp((100-quality_pp)/1500, 0, 1)",
+    "anchor_points": {"70": 0.02, "85": 0.01, "100": 0.0},
+    "critical_share_of_true_defects": 0.80,
+    "noncritical_share_of_true_defects": 0.20,
+    "test_sensitivity": 0.90,
+    "test_specificity": 0.99,
+    "false_positive_classification": "noncritical detected defect",
+    "stage_failure": "any detected critical defect OR at least two detected noncritical defects"
+  }
+}

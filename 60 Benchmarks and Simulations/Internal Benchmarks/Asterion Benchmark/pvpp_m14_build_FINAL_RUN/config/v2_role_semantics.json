@@ -1,0 +1,25 @@
+{
+  "status": "prospective_v2_semantic_closure_pre_execution",
+  "date": "2026-08-31",
+  "source": "user-approved business semantics translated into V2 conformance fixtures before comparative execution",
+  "s2": {
+    "principle": "available capacity is not committed capacity; a physically feasible binding reservation is not automatically economically acceptable",
+    "binding_reservation": {"capacity_per_period": 60, "periods": 5, "fee_k": 20, "guaranteed_capacity_commitment": true},
+    "outside_opportunity": {"capacity_per_period": 30, "verified": true},
+    "non_guaranteed_excess_capacity": "may be offered but cannot be counted by M as secured future capacity",
+    "fixture_choices": {"A": "non_guaranteed_excess_capacity", "B0": "non_guaranteed_excess_capacity", "C": "binding_reservation"}
+  },
+  "lender": {
+    "objective": "maximize probability of complete repayment; discretionary decisions evaluate the whole repayment-generating productive system and added exposure",
+    "fixture": {"headroom": 0.35, "current_exposure_k": 400, "additional_exposure_k": 100, "repay_probability_restrict": 0.42, "repay_probability_amend": 0.55, "continuity_restrict": 0.20, "continuity_amend": 0.90},
+    "fixture_choices": {"A": "amend_or_extend", "B0": "restrict_or_refuse", "C": "amend_or_extend"},
+    "fixture_note": "probabilities are prospective conformance inputs, not empirical bank estimates and not outcome-calibrated"
+  },
+  "transport": {
+    "principle": "accepted service level is a target rather than a physical guarantee; T accepts feasible service when capacity exists and exercises allocation discretion only under capacity conflict",
+    "late_realization": "exactly_one_period_delay_without_loss_or_reroll",
+    "fixture": {"service_slots": 1, "prior_accepted_commitment": true, "critical_current_downstream_shortage": true},
+    "fixture_choices": {"A": "serve_critical_current_load", "B0": "serve_prior_commitment", "C": "serve_prior_commitment"}
+  },
+  "firewall": "No V2 comparative A/B/C outcome was inspected or generated in choosing these semantics or fixture values."
+}

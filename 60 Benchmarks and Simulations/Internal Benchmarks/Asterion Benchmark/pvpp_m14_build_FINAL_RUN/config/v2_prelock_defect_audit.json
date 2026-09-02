@@ -1,0 +1,82 @@
+{
+  "status": "LOCK_BLOCKED",
+  "date": "2026-08-31",
+  "authority": "Action_Semantics_v011 + Counterpart_Contract_v012 + Actions_Events_v04",
+  "conformance_tests": "75/75 PASS",
+  "production_readiness": "PASS (40 neutral fixtures)",
+  "corrected_defects": [
+    "customer termination moved from automatic world terminalization to explicit C controller action",
+    "S2 qualification launch/stage resource lifecycle corrected; quality<70 now fails stage"
+  ],
+  "manual_A_trace": {
+    "seed": 777,
+    "deterministic": true,
+    "terminal": true,
+    "terminal_period": 14,
+    "customer_actions": [
+      {
+        "period": 8,
+        "kind": "c_continue"
+      },
+      {
+        "period": 9,
+        "kind": "c_continue"
+      },
+      {
+        "period": 10,
+        "kind": "c_continue"
+      },
+      {
+        "period": 11,
+        "kind": "c_threaten"
+      },
+      {
+        "period": 12,
+        "kind": "c_threaten"
+      },
+      {
+        "period": 13,
+        "kind": "c_terminate"
+      }
+    ]
+  },
+  "closed_m_families_required": [
+    "m_conserve",
+    "m_ration",
+    "m_split_source",
+    "m_book_transport",
+    "m_amend_lender",
+    "m_recover_pp",
+    "m_pause",
+    "m_breach_controlled",
+    "m_shut_line"
+  ],
+  "initial_root_action_kinds": [
+    "enhanced_inspect",
+    "full_containment",
+    "full_rework",
+    "inspect",
+    "no_action",
+    "order_s1",
+    "request_finance",
+    "request_renegotiation",
+    "reserve_s2",
+    "s1_assist",
+    "shortcut_rework",
+    "start_s2_qualification"
+  ],
+  "missing_closed_m_families": [
+    "m_amend_lender",
+    "m_book_transport",
+    "m_breach_controlled",
+    "m_conserve",
+    "m_pause",
+    "m_ration",
+    "m_recover_pp",
+    "m_shut_line",
+    "m_split_source"
+  ],
+  "obsolete_fixture_note": "controller-free prelock scenario customer_terminal_seen is now false by design because world no longer auto-terminates; explicit homogeneous C trace supplies the correct terminalization conformance path.",
+  "comparative_outcomes_generated": false,
+  "execution_lock_issued": false
+}

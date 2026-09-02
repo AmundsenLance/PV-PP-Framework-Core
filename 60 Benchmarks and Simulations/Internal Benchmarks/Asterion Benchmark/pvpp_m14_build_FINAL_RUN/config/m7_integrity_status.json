@@ -1,0 +1,48 @@
+{
+  "build": "M7 prospective correction",
+  "date": "2026-08-31",
+  "comparative_execution_authorized": false,
+  "test_status": {
+    "passed": 89,
+    "failed": 0
+  },
+  "corrected_defects": [
+    {
+      "id": "D1",
+      "name": "S1 assisted recovery",
+      "status": "FIXED_AND_TESTED",
+      "authority": "assisted recovery +20 line / +25 quality; ordinary +15/+20"
+    },
+    {
+      "id": "D2",
+      "name": "Customer invented threat thresholds",
+      "status": "FIXED_AND_TESTED",
+      "authority": "termination rule only; C-THREATEN remains available but no architecture-specific reserve trigger is frozen"
+    },
+    {
+      "id": "D3",
+      "name": "Outbound transport booking disconnected from M-C shipment",
+      "status": "FIXED_AND_TESTED",
+      "authority": "M-SHIP requires accepted T capacity; one slot per 20 finished units; realization subject to congestion reliability"
+    }
+  ],
+  "open_blocker": {
+    "id": "D4",
+    "name": "Non-M role action surface formalization",
+    "status": "FORMALIZATION_REQUIRED_BEFORE_EXECUTION",
+    "reason": "v0.4 names required S1/S2 action families and qualitative effects, but several controller triggers/quantities/completion conditions are not numerically closed enough to implement without new prospective benchmark choices.",
+    "unresolved_families": [
+      "S1_PRODUCE",
+      "S1_RENEGOTIATE",
+      "S1_STATUS_MSG",
+      "S1_CONTAIN",
+      "S1_EXIT",
+      "S2_QUOTE",
+      "S2_TOOL",
+      "S2_PRODUCE",
+      "S2_EXTERNAL_RESERVE",
+      "S2_EXIT"
+    ]
+  },
+  "outcome_firewall": "No comparative M6 outcome aggregation or regime comparison was used in this correction."
+}

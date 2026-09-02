@@ -1,0 +1,5 @@
+Complete seed files: 1000/1000
+Regime-runs represented: 7000/7000
+Failure records: 0
+Structural errors: 0
+VALIDATION: PASS
