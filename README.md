@@ -26,6 +26,19 @@ It provides the recommended reading order and explains the relationship
 among the core layers, operators, governance material, and supporting
 extensions.
 
+For developers who want to build applications against the framework, the
+public **PV-PP Runtime API** is maintained in a separate repository:
+
+[PV-PP Runtime API](https://github.com/AmundsenLance/PV-PP-Runtime-API)
+
+The Runtime API repository contains the frozen v0.70 runtime
+implementation, regression suite, developer documentation, benchmark and
+regression-support fixtures, and a native reference application. Runtime
+v0.70 is designated **Runtime Interface Freeze 1**. The runtime
+repository is the implementation authority for the behavior of that API;
+it does not replace or redefine the canonical framework architecture
+maintained here.
+
 Before treating any document as controlling architecture, read
 [AUTHORITY_AND_STATUS.md](AUTHORITY_AND_STATUS.md). Public availability
 does not by itself establish canonical authority.
@@ -61,12 +74,24 @@ repository does not elevate such material to canonical status.
 
 ### 40 Runtime and Execution Formalization
 
-A narrow public runtime-architecture surface consisting of the interface
-ladder, setup and domain-frame guidance, tool-action admission boundary,
-and static governance examples.
+Category 40 contains the framework-level specifications that define
+runtime and execution architecture: interface boundaries, setup and
+domain-frame guidance, tool-action admission, execution semantics, and
+selected static-governance material.
 
-Internal implementation artifacts, code, prototype records, validation
-materials, and internal-use-only sidecar documents are not included.
+The executable **PV-PP Runtime API** is now maintained separately in the
+[PV-PP Runtime API
+repository](https://github.com/AmundsenLance/PV-PP-Runtime-API).
+
+This separation is intentional. Category 40 in this repository remains
+part of the framework architecture and authority structure. The Runtime
+API repository contains the frozen implementation, tests, developer
+documentation, and executable examples. Runtime implementation details
+do not become canonical framework theory merely because they are
+required by the current API.
+
+Internal implementation history, prototype records, and development-only
+runtime artifacts remain outside this framework repository.
 
 ### 50 Scalar Reduction Proof Program
 
@@ -164,6 +189,13 @@ Document status remains significant. Canonical, supporting,
 provisional-canonical, exploratory, application, example, and benchmark
 materials do not carry identical authority.
 
+The separate Runtime API repository introduces an additional
+implementation boundary. Frozen Runtime v0.70 is authoritative for what
+the public API actually does, while this framework repository remains
+authoritative according to its existing governance rules for canonical
+PV-PP architecture. An implementation requirement does not by itself
+promote that requirement into framework-level canonical theory.
+
 See `AUTHORITY_AND_STATUS.md` for the repository's authority rules and
 status vocabulary.
 
@@ -175,6 +207,11 @@ public repositories.
 The main PV-PP framework repository therefore serves both as a framework
 repository and as a top-level map to specialized public projects.
 
+The **PV-PP Runtime API** is maintained as a separate public developer
+repository. It provides the frozen executable runtime, regression tests,
+developer-oriented conceptual and API documentation, and native
+reference material without duplicating the canonical framework tree.
+
 Category 50 points to the independently maintained Scalar Reduction
 Proof Program rather than duplicating its authoritative files.
 
@@ -185,15 +222,20 @@ maintained directly under
 `60 Benchmarks and Simulations/Public Benchmarks` so that their evidence
 records remain adjacent to the framework version they tested.
 
-Neither arrangement changes the authority boundary: proof, benchmark,
-simulation, and external-test materials do not become canonical
-framework architecture merely because they are publicly available in or
-linked from this repository.
+Neither arrangement changes the authority boundary: runtime
+implementation, proof, benchmark, simulation, and external-test
+materials do not become canonical framework architecture merely because
+they are publicly available in or linked from this repository.
 
 ## Release Status
 
 This repository represents a curated public framework release assembled
 after an authority and documentation-hygiene review of the working PV-PP
 research tree in August 2026.
+
+A separate public Runtime API repository was subsequently established
+for frozen Runtime v0.70 and its developer package. That separation does
+not alter the authority status of the framework documents in this
+repository.
 
 See `RELEASE_NOTES.md` for release-scope details.
