@@ -1,5 +1,22 @@
 # Release Notes
 
+## September 2026 — Framework Version 2.1 Publication Update
+
+This update introduces a versioned public-repository layout.
+
+- `core-v1/` preserves the prior Version 1 public framework line.
+- `core-v2.1/` publishes the current Version 2.1 framework line.
+- Version 1 is retained for historical continuity and is not being revised or republished as part of this update.
+- Root-level `README.md`, `AUTHORITY_AND_STATUS.md`, `RELEASE_NOTES.md`, and `index.html` describe and navigate the versioned repository as a whole.
+
+Version 2.1 incorporates the current framework architecture, including the structured perceived decision-state boundary, the Actor Purpose and Objective Interface `O_i(t)`, transition-relevant state sufficiency, memory/provenance governance, Transfer History support, replay-sufficiency requirements, and the reconciled Graph, policy-construction, completeness, and constraint surfaces.
+
+The framework-core repository also distinguishes the framework from the executable runtime program. Two runtime generations are preserved publicly: the earlier Version 1 runtime line and the Version 2.1 successor runtime line. Runtime implementations do not redefine framework semantics, and framework-permitted capabilities are not attributed to a runtime unless implemented there.
+
+Runtime project and documentation: https://amundsenlance.github.io/pvpp-runtime-api/
+
+The August 2026 release notes below are retained as the historical record of the earlier curated public release.
+
 ## August 2026 Curated Public Framework Release
 
 This release establishes a cleaned public repository for the Productive Value–Productive Power (PV-PP) framework.

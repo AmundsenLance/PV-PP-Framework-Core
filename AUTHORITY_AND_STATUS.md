@@ -27,6 +27,17 @@ Where two documents conflict, the current owner specification or current governa
 - explanatory diagrams; and
 - reader guides.
 
+## Versioned Framework Directories
+
+The public repository preserves framework releases in versioned directory trees.
+
+- `core-v1/` preserves the Version 1 public framework line.
+- `core-v2.1/` contains the current Version 2.1 public framework line.
+
+Version 1 is retained for historical continuity and comparison. It is not being revised as part of the Version 2.1 publication update.
+
+For current framework use, the owner and governance files inside `core-v2.1/` control within their declared scopes. Material in `core-v1/` must not be used to override Version 2.1 architecture.
+
 ## Operator Ownership
 
 Operator internals are governed by their current operator-owner specifications.
@@ -84,6 +95,14 @@ Applications and examples do not independently redefine the framework.
 Evidence-generating, testing, or diagnostic artifacts.
 
 Benchmark and simulation results may expose defects, support revisions, test behavior, or motivate additional research, but they do not automatically become framework authority.
+
+## Runtime Authority Boundary
+
+The framework repository and the executable PV-PP runtimes are separate authority surfaces.
+
+Two runtime generations are publicly maintained: the preserved Version 1 runtime line and the Version 2.1 successor runtime line. Runtime repositories implement framework-governance interfaces but do not redefine canonical framework semantics.
+
+A runtime capability must not be inferred merely because the framework permits it. Conversely, an implementation limitation in a particular runtime does not by itself narrow the framework unless the controlling framework specification says so.
 
 ## Specialized Repositories
 

@@ -19,9 +19,7 @@ For a plain-language introduction to the framework, begin with the
 [PV-PP framework
 overview](https://amundsenlance.github.io/pvpp-framework/).
 
-For a systematic path through the formal architecture, use the [PV-PP
-Framework Reader Guide
-v0.4](20%20Stack%20and%20Layer%20Governance/Guides%20%3A%20Overviews%20%3A%20Diagrams/PV-PP_Framework_Reader_Guide_v0.4_Merged.docx).
+For a systematic path through the formal architecture, use the [PV-PP Framework Reader Guide](core-v2.1/20%20Stack%20and%20Layer%20Governance/).
 It provides the recommended reading order and explains the relationship
 among the core layers, operators, governance material, and supporting
 extensions.
@@ -44,6 +42,16 @@ Before treating any document as controlling architecture, read
 does not by itself establish canonical authority.
 
 ## Repository Structure
+
+The repository now preserves two framework generations side by side:
+
+- `core-v1/` — preserved Version 1 public framework.
+- `core-v2.1/` — current Version 2.1 public framework.
+
+Version 1 is retained for historical continuity and is not being revised in this publication update. New framework publication work is directed to `core-v2.1/`.
+
+The numbered framework categories described below are located under the applicable version directory. For current work, use `core-v2.1/`.
+
 
 ### 10 Core Framework
 
@@ -199,6 +207,17 @@ promote that requirement into framework-level canonical theory.
 See `AUTHORITY_AND_STATUS.md` for the repository's authority rules and
 status vocabulary.
 
+## Executable Runtimes
+
+The executable PV-PP runtime is maintained separately from the framework-core document tree. Two runtime generations are preserved publicly:
+
+- **Version 1 runtime** — the preserved earlier runtime line.
+- **Version 2.1 runtime** — the current successor runtime line implementing the applicable Version 2.1 framework interfaces.
+
+The framework defines architecture and governance semantics; the runtime implements a particular executable subset. Framework-permitted capabilities must not be attributed to a runtime unless they are actually implemented and validated there.
+
+Runtime project and documentation: https://amundsenlance.github.io/pvpp-runtime-api/
+
 ## Specialized Public Projects
 
 Some PV-PP research programs are large enough to maintain their own
@@ -229,9 +248,7 @@ they are publicly available in or linked from this repository.
 
 ## Release Status
 
-This repository represents a curated public framework release assembled
-after an authority and documentation-hygiene review of the working PV-PP
-research tree in August 2026.
+This repository preserves the Version 1 public framework under `core-v1/` and publishes the current Version 2.1 framework under `core-v2.1/`. Version 1 is retained rather than republished or revised; the current publication update is Version 2.1.
 
 A separate public Runtime API repository was subsequently established
 for frozen Runtime v0.70 and its developer package. That separation does
